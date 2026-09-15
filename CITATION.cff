@@ -10,7 +10,8 @@ authors:
 version: 1.0.0-submission
 date-released: 2026-09-16
 license: MIT
-repository-code: "https://github.com/[username]/committor-market-transition-benchmark"
+doi: 10.5281/zenodo.22774226
+repository-code: "https://github.com/SavitAR296/committor-market-transition-benchmark"
 preferred-citation:
   type: article
   title: "Committor benchmarks for market regime transitions: state information, rolling-window failure, and out-of-sample limits"

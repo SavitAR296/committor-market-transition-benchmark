@@ -8,6 +8,8 @@ Boyan Xing — Department of Mathematical Sciences, Faculty of Science and Techn
 
 Submitted to *Chaos, Solitons & Fractals*.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22774225.svg)](https://doi.org/10.5281/zenodo.22774225)
+
 ## What this repository contains
 
 - `src/` — finite-difference committor/hitting solver, daily data utilities, crisis-label construction and evaluation code.
