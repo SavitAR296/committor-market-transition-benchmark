@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or the archived results, please cite the manuscript below."
+title: "Committor benchmarks for market regime transitions: state information, rolling-window failure, and out-of-sample limits"
+type: software
+authors:
+  - family-names: Xing
+    given-names: Boyan
+    affiliation: "Department of Mathematical Sciences, Faculty of Science and Technology, Beijing Normal-Hong Kong Baptist University"
+    email: t330025089@mail.bnbu.edu.cn
+version: 1.0.0-submission
+date-released: 2026-09-16
+license: MIT
+repository-code: "https://github.com/[username]/committor-market-transition-benchmark"
+preferred-citation:
+  type: article
+  title: "Committor benchmarks for market regime transitions: state information, rolling-window failure, and out-of-sample limits"
+  authors:
+    - family-names: Xing
+      given-names: Boyan
+  journal: "Chaos, Solitons & Fractals"
+  status: "submitted for publication"
+  year: 2026
