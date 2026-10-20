@@ -54,8 +54,10 @@ runtimes, and the record of the 2023-05-24 volume repair.
   `data/vix_daily_datahub_retrieved_2026-10-17.csv` (datahub finance-vix, to 2026-09-22); merged in `data/vix_2000_2026.csv`.
 * Bitcoin and Ether: Coin Metrics community data in `../reproducibility/data/` (BTC first price 2010-07-18; used from 2013-01-01; ETH from 2016-03-01).
 
-The raw Yahoo download is not redistributed; `README_P1.md` documents the download, the data gate and
-the SHA-256 checksums.
+The small frozen chart-API snapshot above (the exact window used by the paper, ~6.5 years of daily
+OHLCV) is bundled as a reproducibility convenience; `E1b_splice_yahoo.py` regenerates it from the
+source, and `README_P1.md` documents the download, the data gate and the SHA-256 checksums. No
+vendor data beyond this window is redistributed.
 
 ## Where each manuscript item comes from
 Table I `T2_table1_closed_form.csv`; Table II `tab2_matched.csv` (frozen headline sample for the first two blocks);

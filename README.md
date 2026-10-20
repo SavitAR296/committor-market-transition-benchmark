@@ -68,9 +68,12 @@ Third-party market data are **not** redistributed as raw vendor files in this re
 - S&P 500: the frozen vega-datasets snapshot of Yahoo Finance `^GSPC` (2000-01-03 to 2020-04-17) is
   bundled under its BSD-style vega-datasets license (`paper1_pre/reproducibility/data/`); the
   2020-04-01 to 2026-10-16 continuation was downloaded by the authors from Yahoo Finance's chart
-  interface in October 2026. A download script, the data gate (`E1c_data_sanity.py`), the repair log
-  for the 2023-05-24 zero-volume day (`E1e_repair_log.csv`, `E1b_splice_report.csv`) and SHA-256
-  checksums are provided; the raw Yahoo download is not redistributed.
+  interface in October 2026. A small frozen snapshot of exactly that window (the raw chart-API file
+  used to build the paper's input, ~6.5 years of daily OHLCV) is bundled as a reproducibility
+  convenience; a download script (`E1b_splice_yahoo.py`), the data gate (`E1c_data_sanity.py`), the
+  repair log for the 2023-05-24 zero-volume day (`E1e_repair_log.csv`, `E1b_splice_report.csv`) and
+  SHA-256 checksums are provided so the file can be regenerated from the source. No vendor database
+  beyond this frozen window is redistributed.
 - VIX: datahub finance-vix series, retrieved 2026-10-17 (frozen copy bundled, source stated).
 - Bitcoin and Ether: Coin Metrics community network data (frozen copies bundled, source stated).
 - S&P 500 1950-2018: independent Yahoo-derived archive (github.com/vijinho/sp500), archived 2025.
