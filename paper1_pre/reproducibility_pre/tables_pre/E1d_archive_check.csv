@@ -1,0 +1,2 @@
+first,last,common_days,frozen_only_days,archive_only_days,close_max_rel_diff,close_days_rel_diff_gt_1e6,volume_ratio_median,volume_ratio_min,volume_ratio_max,volume_days_off_gt_1pct,zero_volume_frozen,zero_volume_archive
+2000-01-03,2018-12-21,4774,0,0,5.73896e-08,0,1,1,1.00076,0,0,0

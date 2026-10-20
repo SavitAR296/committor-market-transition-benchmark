@@ -1,0 +1,7 @@
+direction,pair,omega_measured,omega_theory,observer_term,physical_term,n_volume_repaired
+forward,window: mean r2 (5d) vs mean r2 (20d),-0.0282478,-0.028252,-0.028252,0,1
+forward,leverage: sum r (20d) vs mean r2 (20d),0.0314967,0.0315008,0,0.0315008,1
+forward,mixed: sum r (5d) vs mean r2 (20d),0.0234898,0.0234991,0.00963437,0.0138648,1
+reversed,window: mean r2 (5d) vs mean r2 (20d),-0.028248,-0.028252,-0.028252,0,1
+reversed,leverage: sum r (20d) vs mean r2 (20d),-0.0314967,-0.0315008,0,-0.0315008,1
+reversed,mixed: sum r (5d) vs mean r2 (20d),-0.00418858,-0.0042304,0.00963437,-0.0138648,1

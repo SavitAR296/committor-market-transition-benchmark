@@ -1,61 +1,94 @@
-# Committor Market-Transition Benchmark
+# Committor market-transition benchmark
 
-Reproducibility repository for the manuscript:
+Reproducibility repository for two companion manuscripts by Boyan Xing and Jiayi Pan.
 
-**Committor benchmarks for market regime transitions: state information, rolling-window failure, and out-of-sample limits**
+| manuscript | journal | directory |
+|---|---|---|
+| *Observer-induced irreversibility in trailing-window early-warning states* | prepared for submission to *Physical Review E* | [`paper1_pre/`](paper1_pre/) |
+| *What does a committor score forecast? Hitting-probability warnings of market stress, their target and their evaluation* | prepared for double-blind submission to the *International Journal of Forecasting* | private until acceptance (see below) |
 
-Boyan Xing — Department of Mathematical Sciences, Faculty of Science and Technology, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China.
+Paper 1 analyses what trailing windows of prices and volumes do to the irreversibility and
+information content of an early-warning state. Paper 2 evaluates a committor-type stress score built
+on that state: its target, its calibration, and inference at the level of episodes. The two papers
+share the data pipeline; Paper 1's gated data files are inputs to Paper 2.
 
-Submitted to *Chaos, Solitons & Fractals*.
+## Status of the archived draft (important)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22774225.svg)](https://doi.org/10.5281/zenodo.22774225)
+An earlier single-author draft, *Committor benchmarks for market regime transitions: state
+information, rolling-window failure, and out-of-sample limits*, was **never submitted to any
+journal**. The v1.0.0 Zenodo record (`10.5281/zenodo.22774226`, concept DOI
+`10.5281/zenodo.22774225`) nevertheless carried the statement "submitted for publication (Chaos,
+Solitons and Fractals)", which is **erroneous**. The Zenodo record has been corrected with a note to
+that effect and superseded by version 2.0.0 (DOI `10.5281/zenodo.22774225`; version DOI filled at
+deposit, see [`ZENODO_DEPOSIT.md`](ZENODO_DEPOSIT.md)).
 
-## What this repository contains
+The draft's frozen code, data and results are preserved byte-identical (SHA-256-manifested) at
+`paper1_pre/reproducibility/` (read-only), and its top-level documentation is preserved in
+[`archive_csf_draft/`](archive_csf_draft/). The draft is kept only as a historical record; the two
+papers above supersede it.
 
-- `src/` — finite-difference committor/hitting solver, daily data utilities, crisis-label construction and evaluation code.
-- `experiments/` — analytic double-well check (`F_analytic.py`), all CSF additions (`B_csf_additions.py`), dependence-aware inference (`B_inference_fast.py`) and figure generation (`make_figures.py`).
-- `data/` — public Bitcoin, Ether, S&P 500 and VIX daily snapshots.
-- `tables/` and `tables_csf/` — frozen forecast, metrics, synthetic phase-diagram and bootstrap CSV outputs used by every headline table.
-- `figures_csf/` — final vector and raster figures.
+## Repository layout
 
-## Reproduce the headline results
-
-Tested with Python 3.13. The headline scripts do not require JAX, optax or hmmlearn.
-
-```bash
-python -m pip install -r requirements.txt
-python experiments/F_analytic.py
-python experiments/B_csf_additions.py all --reps 8
-python experiments/B_inference_fast.py
-python experiments/make_figures.py
+```
+archive_csf_draft/            # never-submitted single-author draft: documentation + pointers
+paper1_pre/
+  manuscript/                 # Paper 1 LaTeX sources, tables, figures, compiled PDFs
+  reproducibility_pre/        # Paper 1 scripts, frozen tables, figures, data, SHA-256 manifest
+  reproducibility/            # frozen legacy package (read-only inputs of Paper 1; see README_P1.md)
+run_all.sh                    # two-tier rebuild for both papers
+ZENODO_DEPOSIT.md             # Zenodo v2.0.0 deposit + old-record correction steps
+CITATION.cff                  # citation metadata (v2.0.0)
+LICENSE                       # MIT, both authors
 ```
 
-Frozen outputs used in the manuscript are included so the paper can be rebuilt without rerunning the heavier annual fits.
+## Reproducing the results
 
-## Locked headline results
+Python 3.12 (Paper 1) is tested; see each package's `requirements.txt`.
 
-- Nonlinear synthetic benchmark (tau_c = 20): oracle mean AUC/BSS ≈ 0.894/0.551; rolling-flexible state at w = 80 falls to ≈ 0.805/0.331.
-- Information loss persists without slow control drift (w = 1 → 80: AUC 0.867 → 0.750).
-- S&P common-feature state: raw OU AUC ≈ 0.901 (5 d) and 0.776 (20 d); strict sequential calibration gives BSS ≈ 0.077 and 0.005.
-- Same-state supervised baselines often match or exceed the dynamical score; no universal physics-over-ML advantage is claimed.
-- Target-set sensitivity is modest; dependence-aware bootstrap inference weakens small score differences.
+```bash
+# Tier 1 (minutes): rebuild every table, text macro and figure from the shipped frozen CSVs,
+# then recompile the manuscripts.
+./run_all.sh quick
 
-## Evaluation protocol
+# Tier 2 (hours, one core): recompute every simulation and fit from the raw data.
+./run_all.sh full
 
-The feature-attribution experiment uses annual expanding windows. The OU hitting score is sequentially recalibrated using only prior out-of-sample predictions/labels, falling back to the training climatology when history is insufficient. Baselines are matched to exactly the same information set. The synthetic phase diagram separates latent-state information from rolling-coordinate compression and estimator error.
+# Verify the shipped tree against the SHA-256 manifests.
+./run_all.sh check
+```
 
-## Randomness
+`run_all.sh` dispatches to `make -f Makefile_P1` (Paper 1) and, once public, `make -f Makefile_P2`
+(Paper 2). The compiled PDFs in `paper1_pre/manuscript/` correspond to the shipped sources; rebuild
+them with `make -f Makefile_P1 manuscript` if a TeX distribution is available.
 
-Synthetic experiments use deterministic seeds beginning with `20260914`; the dependence bootstrap uses seed `20260915`. Scikit-learn random states are fixed in the archived scripts.
+## Data and redistribution
 
-## AI-assisted code development
+Third-party market data are **not** redistributed as raw vendor files in this repository:
 
-OpenAI ChatGPT (GPT-5.6 Sol; OpenAI, accessed September 2026) assisted with drafting/refactoring matched-feature, synthetic, bootstrap and plotting code. All reported numerical outputs were produced by executable code against the supplied data or frozen forecast files and checked against the manuscript tables. The author retains full responsibility.
+- S&P 500: the frozen vega-datasets snapshot of Yahoo Finance `^GSPC` (2000-01-03 to 2020-04-17) is
+  bundled under its BSD-style vega-datasets license (`paper1_pre/reproducibility/data/`); the
+  2020-04-01 to 2026-10-16 continuation was downloaded by the authors from Yahoo Finance's chart
+  interface in October 2026. A download script, the data gate (`E1c_data_sanity.py`), the repair log
+  for the 2023-05-24 zero-volume day (`E1e_repair_log.csv`, `E1b_splice_report.csv`) and SHA-256
+  checksums are provided; the raw Yahoo download is not redistributed.
+- VIX: datahub finance-vix series, retrieved 2026-10-17 (frozen copy bundled, source stated).
+- Bitcoin and Ether: Coin Metrics community network data (frozen copies bundled, source stated).
+- S&P 500 1950-2018: independent Yahoo-derived archive (github.com/vijinho/sp500), archived 2025.
 
-## License
+See `paper1_pre/reproducibility_pre/README_P1.md` (Data provenance) for the full record, and
+`archive_csf_draft/DATA_REDISTRIBUTION_NOTE_legacy.md` for the original policy note.
 
-Code is released under the MIT License (see `LICENSE`). See `DATA_REDISTRIBUTION_NOTE.md` for the provenance and redistribution terms of the bundled market-data snapshots.
+## AI assistance disclosure
+
+- Paper 1 and Paper 2 (current manuscripts): Claude (Anthropic) was used to edit the text and AI
+  coding assistants to develop analysis code; the authors ran every script and take full
+  responsibility. See the manuscripts' declarations.
+- The legacy single-author draft (archived): OpenAI ChatGPT (GPT-5.6 Sol) assisted with drafting and
+  refactoring code for the archived experiments; see `archive_csf_draft/`.
 
 ## Citation
 
-See `CITATION.cff`. Once the manuscript is accepted, update this file and the repository description with the journal DOI.
+See [`CITATION.cff`](CITATION.cff). Until the manuscripts are accepted, cite the repository itself;
+after acceptance, update `CITATION.cff` and the manuscript data-availability paragraphs with the
+journal DOIs. The arXiv identifiers of the two papers, once posted, replace the "submitted to ..."
+cross-references between them.

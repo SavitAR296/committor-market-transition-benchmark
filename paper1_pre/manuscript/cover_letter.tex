@@ -1,0 +1,19 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\signature{Boyan Xing (corresponding author)\\Department of Mathematical Sciences, Beijing Normal-Hong Kong Baptist University, Zhuhai, China\\t330025089@mail.bnbu.edu.cn\\[4pt]on behalf of both authors (Boyan Xing and Jiayi Pan)}
+\address{}
+\newcommand{\ZenodoDOI}{\textbf{[DOI of the new Zenodo version]}}
+\begin{document}
+\begin{letter}{The Editors\\Physical Review E}
+\opening{Dear Editors,}
+We submit ``Observer-induced irreversibility in trailing-window early-warning states'' as a Regular Article. Trailing windows are the standard preprocessing of early-warning indicators, and we show what they do to irreversibility. For linear filters of a stationary multichannel input, the lag-one antisymmetry---the area-enclosing rate that sets the current of any fitted linear Markov model---splits exactly into an observer term, created by the temporal offsets of the filter kernels, and a physical term, set by the time-antisymmetric part of the input covariances; time reversal of the data separates the two without a model (Proposition~1). For a fitted two-dimensional model the entropy production factorizes into the squared antisymmetry and an innovation-geometry factor (Proposition~2), which explains why windows of a reversible signal can report a large dissipation.
+
+These results matter to readers of PRE because time irreversibility is being proposed as an early-warning signal and committor-type forecasts integrate drifts fitted to windowed states; both inherit the observer term. In daily S\&P~500 data, time reversal, centered windows and sign randomization isolate the observer term in the volatility windows and identify the physical term as the leverage effect, and a calibrated stochastic-volatility model shows that the same windows lose about half of the information on the next volatility excursion.
+
+A companion manuscript by the same authors, ``What does a committor score forecast? Hitting-probability warnings of market stress, their target and their evaluation,'' is submitted to the \emph{International Journal of Forecasting} and is provided to the editors as a related manuscript; it evaluates forecasts built on the same market state and reports no result of the present paper. The manuscript is not under consideration elsewhere. Data, code, intermediate tables and checksums are deposited at \url{https://github.com/SavitAR296/committor-market-transition-benchmark} (directory \texttt{paper1\_pre/}) and archived on Zenodo (DOI \ZenodoDOI). We used AI assistants, including Claude (Anthropic), to develop analysis code and to edit the text; the authors ran every script and take full responsibility for the content.
+
+We suggest as referees, none of whom has collaborated with either author: \'Edgar Rold\'an (ICTP, Trieste; entropy production under partial observation), Stephen W. Teitsworth (Duke University; area-enclosing rates of linear systems), Lucas Lacasa (IFISC, CSIC--UIB; time-series irreversibility), Vasilis Dakos (ISEM, CNRS and Universit\'e de Montpellier; early-warning signals) and Jean-Philippe Bouchaud (Capital Fund Management; time-reversal asymmetry of financial returns).
+\closing{Sincerely,}
+\end{letter}
+\end{document}

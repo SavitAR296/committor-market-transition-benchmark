@@ -1,0 +1,4 @@
+# Byte-stable checkout.  The SHA-256 manifests (SHA256SUMS_P1.txt, SHA256SUMS_P2.txt) hash the
+# shipped files as committed; no newline conversion may happen on any platform, or `make check`
+# fails.  Files are LF in the repository.
+* -text

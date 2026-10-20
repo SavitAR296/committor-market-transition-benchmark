@@ -1,0 +1,90 @@
+macro,latex,value,source,selection
+EpPca,\ensuremath{0.035},0.035237002,E4_irreversibility_surrogates.csv,SPX observed PCA(2) e_p
+EpSurMed,\ensuremath{0.0027},0.0026640373499999996,E4_irreversibility_surrogates.csv,"reversible surrogates, median"
+EpSurQ,\ensuremath{0.0070},0.006966975479999996,E4_irreversibility_surrogates.csv,"reversible surrogates, 95% quantile"
+EpSurMax,\ensuremath{0.0117},0.011680853,E4_irreversibility_surrogates.csv,"reversible surrogates, max"
+NSur,\ensuremath{200},200.0,E4_irreversibility_surrogates.csv,number of reversible surrogates
+EpObsOverMax,\ensuremath{3.0},3.0166463014302125,E4_irreversibility_surrogates.csv,observed / max
+EpWinObs,\ensuremath{0.15},0.15439,E4c_pca_factorization.csv,"observed, window pair e_p"
+EpWinSurMed,\ensuremath{0.13},0.126284,E4c_pca_factorization.csv,"surrogates, window pair e_p median"
+OmFitSqRatio,\ensuremath{8.5},8.478346542835535,E4c_pca_factorization.csv,omega_fit^2 / surrogate median
+GRatio,\ensuremath{1.5},1.5350799507191153,E4c_pca_factorization.csv,G / surrogate median
+GPca,\ensuremath{47},46.9736,E4c_pca_factorization.csv,observed PCA(2) G
+OmFitPca,\ensuremath{0.019},0.0193668,E4c_pca_factorization.csv,observed |omega_fit|
+EpRevRefit,\ensuremath{0.095},0.0953423,E4c_pca_factorization.csv,"reversed input, re-fitted PCA, e_p"
+OmFitRevRefit,\ensuremath{0.034},0.0341202,E4c_pca_factorization.csv,"reversed, re-fitted, |omega_fit|"
+GRevRefit,\ensuremath{41},40.9479,E4c_pca_factorization.csv,"reversed, re-fitted, G"
+EpRevFixed,\ensuremath{0.038},0.0379407,E4c_pca_factorization.csv,"reversed, fixed basis, e_p"
+OmFitRevFixed,\ensuremath{0.020},0.0203273,E4c_pca_factorization.csv,"reversed, fixed basis, |omega_fit|"
+OmWinFwd,\ensuremath{-0.020},-0.0202529,E4e_pairs.csv,"window, forward"
+OmWinRev,\ensuremath{-0.020},-0.0202394,E4e_pairs.csv,"window, reversed"
+OmLevFwd,\ensuremath{+0.028},0.0276168,E4e_pairs.csv,"leverage, forward"
+OmLevRev,\ensuremath{-0.028},-0.0275569,E4e_pairs.csv,"leverage, reversed"
+OmLevCen,\ensuremath{+0.027},0.0266912,E4e_pairs.csv,"leverage, centred"
+OmLevData,\ensuremath{+0.0276},0.0276168,E4e_pairs.csv,"leverage, forward (4 d.p.)"
+DDO,\ensuremath{+0.0057},0.00566719,E4e_pairs.csv,drawdown O
+DDP,\ensuremath{+0.0165},0.0164785,E4e_pairs.csv,drawdown P
+DDCen,\ensuremath{-0.0018},-0.00177016,E4e_pairs.csv,drawdown centred
+OmPcaFwd,\ensuremath{+0.020},0.01974,E4e_pairs.csv,PCA(2) fwd
+OmPcaRev,\ensuremath{-0.021},-0.0206395,E4e_pairs.csv,PCA(2) rev
+OmPcaCen,\ensuremath{+0.016},0.0162442,E4e_pairs.csv,PCA(2) cen
+OPcaRev,\ensuremath{-0.0004},-0.000449715,E4e_pairs.csv,PCA(2) O by time reversal
+OPcaCen,\ensuremath{+0.0035},0.0034958000000000003,E4e_pairs.csv,PCA(2) omega - omega_cen
+CryptoPmax,\ensuremath{0.003},0.00275805,E4e_pairs.csv,"max |P|, BTC and ETH rows"
+SELevP,\ensuremath{0.0021},0.00205015,E4g_bootstrap_se.csv,"SE of P, leverage, block 20"
+LevPz,\ensuremath{13},13.456039801965709,E4g_bootstrap_se.csv,"P / SE, leverage"
+PcaPz,\ensuremath{11},11.225223922918254,E4g_bootstrap_se.csv,"P / SE, PCA(2)"
+WinOz,\ensuremath{12},11.856662645381181,E4g_bootstrap_se.csv,"|O| / SE, window"
+SERatioLo,\ensuremath{0.5},0.4879704019962786,E4g_bootstrap_se.csv,min SE(60)/SE(20)
+SERatioHi,\ensuremath{1.4},1.4134723572806835,E4g_bootstrap_se.csv,max SE(60)/SE(20)
+CryptoLevPz,\ensuremath{0.9},0.8813704611510695,E4g_bootstrap_se.csv,"max |P|/SE leverage BTC, ETH"
+DDLoadOne,\ensuremath{-0.50},-0.496589,E4g_pca_loadings.csv,dd20 loading on PC1
+DDLoadTwo,\ensuremath{-0.27},-0.265132,E4g_pca_loadings.csv,dd20 loading on PC2
+VolMaxDiff,\ensuremath{1.4\times10^{-5}},1.36121e-05,E4g_volume_sensitivity.csv,max |change|
+VolAdj,\ensuremath{4.152\times10^{9}},4151540000.0,E4g_volume_sensitivity.csv,adjacent-day mean volume
+OmTabOne,\ensuremath{-0.0135},-0.013481894,T2d_table1.csv,"lam w = 0.1, omega"
+OmFitTabOne,\ensuremath{-0.0127},-0.012711062,T2d_table1.csv,"lam w = 0.1, omega_fit"
+GTabOne,\ensuremath{1.5\times10^{4}},15001.166,T2d_table1.csv,"lam w = 0.1, G"
+EpTabOne,\ensuremath{4.8},4.8475099,T2d_table1.csv,"lam w = 0.1, e_p"
+EpNoiseOne,\ensuremath{0.21},0.20985629,T2d_table1.csv,"eta^2 = 0.01, e_p"
+EpNoiseTen,\ensuremath{0.015},0.014994029,T2d_table1.csv,"eta^2 = 0.1, e_p"
+OmNoiseOne,\ensuremath{1\%},0.9900982755093546,T2d_table1.csv,"percent change of omega, eta^2 = 0.01"
+OmNoiseTen,\ensuremath{9\%},9.090911113824218,T2d_table1.csv,"percent change of omega, eta^2 = 0.1"
+OmFitDevLo,\ensuremath{3},3.370895928422246,T2d_table1.csv,min % omega_fit below omega
+OmFitDevHi,\ensuremath{11},11.051928607103811,T2d_table1.csv,max % omega_fit below omega
+EllTabOne,\ensuremath{0.10},0.10227199,T2d_table1.csv,"lam w = 0.1, ell (h = 10)"
+SimMaxErr,\ensuremath{3.3\%},3.3283049256908948,S2_gaussian_irrev.csv,"max rel. error of R, e_p, d1 (non-centred)"
+MCDevMax,\ensuremath{1.5\%},1.4646146493853434,S1_gaussian_leak.csv,"max |MC - series|/Var p, phi <= 0.98"
+MCDevNineNine,\ensuremath{9\%},8.939838506030865,S1_gaussian_leak.csv,"max (series - MC)/Var p, phi = 0.99"
+SingleErrLo,\ensuremath{+0.14},0.1426248,S4e_two_rate_leak.csv,"single-rate error, min"
+SingleErrHi,\ensuremath{+0.50},0.498858,S4e_two_rate_leak.csv,"single-rate error, max"
+TwoErrLo,\ensuremath{-0.14},-0.135034,S4e_two_rate_leak.csv,"two-rate error, min"
+TwoErrHi,\ensuremath{+0.03},0.032951999999999995,S4e_two_rate_leak.csv,"two-rate error, max"
+TwoErrAbs,\ensuremath{0.14},0.135034,S4e_two_rate_leak.csv,"two-rate |error|, max"
+SingleFacLo,\ensuremath{1.7},1.6776034496572925,S4e_two_rate_leak.csv,"single/exact, min"
+SingleFacHi,\ensuremath{4.1},4.104187152153981,S4e_two_rate_leak.csv,"single/exact, max"
+ClfEst,\ensuremath{0.84},0.8431587912,S4_summary.csv,"tau_c = 5, w = 80, classifier-skill estimate"
+ClfExact,\ensuremath{0.53},0.530736,S4e_two_rate_leak.csv,"tau_c = 5, w = 80, exact"
+DWEpOne,\ensuremath{7.7},7.724289236,S5_summary.csv,"tau_c = inf, w = 1, observed e_p"
+DWEpEighty,\ensuremath{1.5},1.53406703,S5_summary.csv,"tau_c = inf, w = 80"
+DWLatLo,\ensuremath{2.9},2.937745861,S5_summary.csv,latent e_p min x 1e3
+DWLatHi,\ensuremath{3.7},3.650706599,S5_summary.csv,latent e_p max x 1e3
+DWPredOne,\ensuremath{7.1},7.072359408,S5_summary.csv,"Gaussian-observer prediction, w = 1"
+SVQnfMax,\ensuremath{0.009},0.009025583999999998,E4f_sv_variants.csv,max over variants of 95% e_p at rho = 0
+SVMatchLo,\ensuremath{0.022},0.022453931730993245,E4f_sv_variants.csv,"e_p interpolated to the data omega_lev, min over variants"
+SVMatchHi,\ensuremath{0.047},0.04703812740838999,E4f_sv_variants.csv,"e_p interpolated to the data omega_lev, max over variants"
+TOneLevMax,\ensuremath{+0.027},0.027004399999999998,E4f_sv_variants.csv,T1: largest omega_lev
+TOneEpAtMax,\ensuremath{0.032},0.032149300000000006,E4f_sv_variants.csv,T1: e_p there
+RRobs,\ensuremath{+1.03},1.02609,E4e_third_order.csv,observed
+RRlo,\ensuremath{-0.71},-0.70732,E4e_third_order.csv,null 2.5%
+RRhi,\ensuremath{0.84},0.842473,E4e_third_order.csv,null 97.5%
+RRp,\ensuremath{0.01},0.01,E4e_third_order.csv,two-sided p
+LamMkt,\ensuremath{0.020},0.0202027,E9_market_information.csv,lambda per day
+EllMktPair,\ensuremath{0.10},0.102272,E9_market_information.csv,"exact, pair (5,20)"
+EllWinFive,\ensuremath{0.11},0.109295,E9_market_information.csv,"exact, window 5"
+EllWinTwenty,\ensuremath{0.40},0.396408,E9_market_information.csv,"exact, window 20"
+EllWinSixty,\ensuremath{0.72},0.718781,E9_market_information.csv,"exact, window 60"
+EllWinTwoFifty,\ensuremath{0.95},0.952148,E9_market_information.csv,"exact, window 250"
+EllMktRV,\ensuremath{0.45},0.447587,E9_market_information.csv,"simulation, log RV pair"
+EllMktPca,\ensuremath{0.49},0.493287,E9_market_information.csv,"simulation, PCA(2) state"
+EllCheckDiff,\ensuremath{0.003},0.002592999999999998,E9_market_information.csv,"|simulated - exact|, noise-free pair"

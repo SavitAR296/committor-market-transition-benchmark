@@ -1,0 +1,4 @@
+form,param,rmse_ell,r2_ell,max_abs_dev_BSS_gaussian,collapse_within_0p03,var_pop_inf,var_pop_inf_direct,p_bar_inf
+"Gaussian limit, no free parameter",,0.334312539,-0.8506252165,0.2378676984,False,0.09141747469,0.09141752439,0.3208973092
+stretch: lam_eff = lam_bar (1 + beta/(lam_bar tau_c)),0,0.334312539,-0.8506252165,0.2378676984,False,0.09141747469,0.09141752439,0.3208973092
+amplitude: ell = ell_G (1 + gamma/(lam_bar tau_c)),-5,0.2719496281,-0.2245882334,0.2378676984,False,0.09141747469,0.09141752439,0.3208973092

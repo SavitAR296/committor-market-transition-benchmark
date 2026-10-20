@@ -1,0 +1,3 @@
+comparison,first,last,common_days,only_first,only_second,close_max_rel_diff,volume_ratio_median,volume_ratio_min,volume_ratio_max,volume_days_off_gt_1pct,zero_volume_days_second,yahoo_sha256,spliced_rows,spliced_sha256
+frozen snapshot vs Yahoo download,2019-01-02,2020-04-17,326,0,0,1.75096e-10,0.997489,0.856713,1.00402,27,1,552ef4e7d3abe8e61d708f6773f19a336775b3f6a2c53f52f8c42fd81167ae17,6738,4340e4a4a56b8495099b841de935125f90a845f9a76e8437e4d9408872fe1260
+Yahoo download vs earlier extension,2020-04-01,2026-10-16,1645,0,0,5.69529e-08,1,1,1,0,1,552ef4e7d3abe8e61d708f6773f19a336775b3f6a2c53f52f8c42fd81167ae17,6738,4340e4a4a56b8495099b841de935125f90a845f9a76e8437e4d9408872fe1260

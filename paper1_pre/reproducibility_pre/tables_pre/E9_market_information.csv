@@ -1,0 +1,9 @@
+observer,method,lam_w,s2,ell,n_train,n_test,lam,sd_h
+window 5,"exact (Lemma 1), noise-free windows of x",0.101014,0.0468311,0.109295,,,0.0202027,0.985493
+window 20,"exact (Lemma 1), noise-free windows of x",0.404054,0.213699,0.396408,,,0.0202027,0.985493
+window 60,"exact (Lemma 1), noise-free windows of x",1.21216,0.506175,0.718781,,,0.0202027,0.985493
+window 250,"exact (Lemma 1), noise-free windows of x",5.05068,0.87586,0.952148,,,0.0202027,0.985493
+"windows (5,20)","exact (Lemma 1), noise-free windows of x",0.404054,0.0435588,0.102272,,,0.0202027,0.985493
+"windows (5,20)","simulation, out-of-sample regression",,,0.104865,599851,399901,0.0202027,0.985493
+"log RV (5, 20 days)","simulation, out-of-sample regression",,,0.447587,599851,399901,0.0202027,0.985493
+PCA(2) state,"simulation, out-of-sample regression",,,0.493287,599851,399901,0.0202027,0.985493

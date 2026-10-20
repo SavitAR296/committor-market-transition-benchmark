@@ -1,0 +1,4 @@
+pair,omega_observed,omega_reversed,omega_centred,observer_est,physical_est
+"window(log_rv5,log_rv20)",-0.0202529,-0.0202394,0.00131948,-0.0202462,-6.75339e-06
+"leverage(ret20,log_rv20)",0.0276168,-0.0275569,0.0266912,2.99561e-05,0.0275869
+"leverage(dd20,log_rv20)",0.0221457,-0.0108113,-0.00177016,0.00566719,0.0164785

@@ -1,23 +1,46 @@
 cff-version: 1.2.0
-message: "If you use this code or the archived results, please cite the manuscript below."
-title: "Committor benchmarks for market regime transitions: state information, rolling-window failure, and out-of-sample limits"
+message: "If you use this repository or the archived results, please cite the repository itself or the corresponding manuscript below."
+title: "Committor market-transition benchmark: reproducibility archive for two companion papers"
 type: software
 authors:
   - family-names: Xing
     given-names: Boyan
-    affiliation: "Department of Mathematical Sciences, Faculty of Science and Technology, Beijing Normal-Hong Kong Baptist University"
+    affiliation: "Department of Mathematical Sciences, Faculty of Science and Technology, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China"
     email: t330025089@mail.bnbu.edu.cn
-version: 1.0.0-submission
-date-released: 2026-09-16
+  - family-names: Pan
+    given-names: Jiayi
+    affiliation: "Department of Accounting, Faculty of Business and Management, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China"
+version: 2.0.0
+date-released: 2026-10-20
 license: MIT
-doi: 10.5281/zenodo.22774226
+# concept DOI (always resolves to the latest version); replace with the v2.0.0 version DOI after
+# the Zenodo deposit described in ZENODO_DEPOSIT.md
+doi: 10.5281/zenodo.22774225
 repository-code: "https://github.com/SavitAR296/committor-market-transition-benchmark"
+keywords:
+  - early warning signals
+  - time irreversibility
+  - committor
+  - hitting probability
+  - forecast evaluation
+  - model confidence set
+  - reproducibility
 preferred-citation:
-  type: article
-  title: "Committor benchmarks for market regime transitions: state information, rolling-window failure, and out-of-sample limits"
-  authors:
-    - family-names: Xing
-      given-names: Boyan
-  journal: "Chaos, Solitons & Fractals"
-  status: "submitted for publication"
-  year: 2026
+  - type: article
+    title: "Observer-induced irreversibility in trailing-window early-warning states"
+    authors:
+      - family-names: Xing
+        given-names: Boyan
+      - family-names: Pan
+        given-names: Jiayi
+    status: "preprint (prepared for submission to Physical Review E)"
+    year: 2026
+  - type: article
+    title: "What does a committor score forecast? Hitting-probability warnings of market stress, their target and their evaluation"
+    authors:
+      - family-names: Xing
+        given-names: Boyan
+      - family-names: Pan
+        given-names: Jiayi
+    status: "preprint (prepared for submission to International Journal of Forecasting)"
+    year: 2026

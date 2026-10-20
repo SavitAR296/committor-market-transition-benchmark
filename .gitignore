@@ -8,3 +8,20 @@ venv/
 *.log
 *.aux
 *.out
+
+# LaTeX build artifacts
+*.spl
+*.bbl
+*.blg
+*.synctex.gz
+latexmk/
+
+# unit caches and run logs (not shipped; delete to recompute)
+_cache/
+logs/
+
+# author-side working files (kept out of the public tree)
+paper1_pre/AUTHOR_INPUT_NEEDED.md
+paper1_pre/REVISION_LOG.md
+paper1_pre/reproducibility_pre/AUTHOR_INPUT_NEEDED.md
+paper1_pre/reproducibility_pre/REVISION_LOG.md

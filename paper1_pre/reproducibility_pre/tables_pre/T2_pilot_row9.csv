@@ -1,0 +1,13 @@
+scoring,windows,method,AUC,BSS
+all,latent,oracle,0.9758395169,0.5216077604
+all,latent,latent_gbt,0.9754208427,0.5190178117
+all,"(1,5)",window_gbt,0.9751846859,0.5174339529
+all,"(5,20)",window_gbt,0.9689869279,0.4518117307
+all,"(10,40)",window_gbt,0.9589020723,0.3902886592
+all,"(20,80)",window_gbt,0.9411747299,0.3036998629
+first_passage,latent,oracle,0.9608235363,0.2840508152
+first_passage,latent,latent_gbt,0.9601206418,0.2800921891
+first_passage,"(1,5)",window_gbt,0.9597201169,0.2776321713
+first_passage,"(5,20)",window_gbt,0.9501933584,0.1968523763
+first_passage,"(10,40)",window_gbt,0.9355250431,0.1359079243
+first_passage,"(20,80)",window_gbt,0.9121757929,0.07619660792

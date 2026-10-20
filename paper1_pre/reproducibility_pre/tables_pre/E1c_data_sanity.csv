@@ -1,0 +1,9 @@
+file,check,severity,date,value
+spx_2000_2026,non-positive or missing volume,FAIL,2023-05-24,0.0
+spx_2000_2026,volume jump > 5x,WARN,2023-05-24,0.0
+spx_2000_2026,calendar gap > 5 days,WARN,2001-09-17,7.0
+spx_yahoo_download,non-positive or missing volume,FAIL,2023-05-24,0.0
+spx_yahoo_download,volume jump > 5x,WARN,2023-05-24,0.0
+spx_extension_upload,non-positive or missing volume,FAIL,2023-05-24,0.0
+spx_extension_upload,volume jump > 5x,WARN,2023-05-24,0.0
+spx_2000_2026_r1,calendar gap > 5 days,WARN,2001-09-17,7.0

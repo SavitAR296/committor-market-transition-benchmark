@@ -1,0 +1,54 @@
+\documentclass[pre,twocolumn,superscriptaddress,nofootinbib]{revtex4-2}
+\usepackage{amsmath,amssymb,bm,graphicx,xspace}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\pOp}{p_{\mathrm{op}}}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\input{numbers}% result numbers, written by reproducibility_pre/scripts/P1_numbers.py
+\InputIfFileExists{supp_labels}{}{}% supplemental table numbers, written by sync_labels.py
+\newcommand{\Sref}[1]{\ifcsname supp@#1\endcsname\csname supp@#1\endcsname\else S??\fi}
+% ---- submission metadata: filled at release; see ZENODO_DEPOSIT.md in the repository root
+\newcommand{\ZenodoDOI}{\textbf{[DOI of the new Zenodo version]}}% fill after the Zenodo v2.0.0 deposit
+\newcommand{\RepoCommit}{\textbf{[commit hash]}}% fill with the release commit
+\newenvironment{proof}{\par\noindent\emph{Proof.}\ }{\hfill$\square$\par}
+\makeatletter\g@addto@macro\UrlBreaks{\do\_\do\/\do\.\do-}\makeatother
+\renewcommand{\dbltopfraction}{0.92}\renewcommand{\topfraction}{0.92}\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.85}\renewcommand{\dblfloatpagefraction}{0.85}
+
+\begin{document}
+
+\title{Observer-induced irreversibility in trailing-window early-warning states}
+
+\author{Boyan Xing}
+\email{t330025089@mail.bnbu.edu.cn}
+\affiliation{Department of Mathematical Sciences, Faculty of Science and Technology, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China}
+\author{Jiayi Pan}
+\affiliation{Department of Accounting, Faculty of Business and Management, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China}
+
+\date{\today}
+
+\begin{abstract}
+Early-warning indicators are built from trailing windows. For linear filters of a stationary multichannel input, the lag-one antisymmetry---the discrete area-enclosing rate that sets the current of a fitted linear Markov model---splits exactly into an observer term, which needs windows with different centers, and a physical term, which needs time-antisymmetric input covariances; time reversal of the data separates the two without a model. Windows of a single signal therefore show only observer-made irreversibility at second order, and the entropy production of a fitted two-dimensional model factorizes into the squared antisymmetry and an innovation-geometry factor that makes reversible inputs look strongly dissipative. The same windows destroy transition information, in closed form for Gaussian inputs. In daily S\&P 500 data the volatility windows carry an observer term as large as in time-reversible surrogates, and the physical term is the leverage effect.
+\end{abstract}
+
+\maketitle
+
+\input{sec1_intro}
+\input{sec2_theory}
+\input{sec3_information}
+\input{sec4_markets}
+\input{sec5_discussion}
+
+\begin{acknowledgments}
+We used AI assistants, including Claude (Anthropic), to develop analysis code and to edit the text; every numerical result was produced by the deposited, seeded scripts, which the authors ran and checked, and the authors take full responsibility for the content.
+\end{acknowledgments}
+
+\emph{Data and code availability.} Data snapshots, scripts, all intermediate tables, figures and SHA-256 manifests are deposited at \url{https://github.com/SavitAR296/committor-market-transition-benchmark} (directory \nolinkurl{paper1_pre/}, commit \RepoCommit) and archived on Zenodo (DOI \ZenodoDOI); every result number in the text is generated as a macro with its source table, and Table~\Sref{files} of the Supplemental Material \cite{SM} lists the files behind each figure and table.
+
+\input{appendices}
+
+\input{refs}
+
+\end{document}

@@ -1,0 +1,61 @@
+set,horizon,max_abs_dev_vs_frozen,sample,calibrator,BSS
+common7,5,2.220446049e-16,all,logistic,0.07673145318
+common7,5,2.220446049e-16,all,logit_logistic,0.07982118207
+common7,5,2.220446049e-16,all,isotonic,0.0717695288
+common7,5,2.220446049e-16,all,"(PC2 logistic, reference)",0.1139640143
+common7,5,2.220446049e-16,ex2008,logistic,0.1161530478
+common7,5,2.220446049e-16,ex2008,logit_logistic,0.1208301575
+common7,5,2.220446049e-16,ex2008,isotonic,0.1086418823
+common7,5,2.220446049e-16,ex2008,"(PC2 logistic, reference)",0.06741074888
+common7,20,2.775557562e-16,all,logistic,0.005220355778
+common7,20,2.775557562e-16,all,logit_logistic,-0.005769971623
+common7,20,2.775557562e-16,all,isotonic,0.0252948761
+common7,20,2.775557562e-16,all,"(PC2 logistic, reference)",0.1183954946
+common7,20,2.775557562e-16,ex2008,logistic,0.007262091365
+common7,20,2.775557562e-16,ex2008,logit_logistic,-0.008026667698
+common7,20,2.775557562e-16,ex2008,isotonic,0.03518796594
+common7,20,2.775557562e-16,ex2008,"(PC2 logistic, reference)",0.06105574845
+no_option9,5,2.220446049e-16,all,logistic,0.08627249773
+no_option9,5,2.220446049e-16,all,logit_logistic,0.07105433753
+no_option9,5,2.220446049e-16,all,isotonic,0.08733583399
+no_option9,5,2.220446049e-16,all,"(PC2 logistic, reference)",0.1134591775
+no_option9,5,2.220446049e-16,ex2008,logistic,0.1305959047
+no_option9,5,2.220446049e-16,ex2008,logit_logistic,0.107559254
+no_option9,5,2.220446049e-16,ex2008,isotonic,0.1322055412
+no_option9,5,2.220446049e-16,ex2008,"(PC2 logistic, reference)",0.07361758365
+no_option9,20,2.220446049e-16,all,logistic,0.02906418016
+no_option9,20,2.220446049e-16,all,logit_logistic,0.02469172378
+no_option9,20,2.220446049e-16,all,isotonic,0.04388891124
+no_option9,20,2.220446049e-16,all,"(PC2 logistic, reference)",0.1065341575
+no_option9,20,2.220446049e-16,ex2008,logistic,0.04043148413
+no_option9,20,2.220446049e-16,ex2008,logit_logistic,0.03434891445
+no_option9,20,2.220446049e-16,ex2008,isotonic,0.06105432214
+no_option9,20,2.220446049e-16,ex2008,"(PC2 logistic, reference)",0.09549002786
+full11,5,1.942890293e-16,all,logistic,0.06367238537
+full11,5,1.942890293e-16,all,logit_logistic,0.06354444409
+full11,5,1.942890293e-16,all,isotonic,0.06825500464
+full11,5,1.942890293e-16,all,"(PC2 logistic, reference)",0.04799543807
+full11,5,1.942890293e-16,ex2008,logistic,0.09638474592
+full11,5,1.942890293e-16,ex2008,logit_logistic,0.09619107346
+full11,5,1.942890293e-16,ex2008,isotonic,0.1033217343
+full11,5,1.942890293e-16,ex2008,"(PC2 logistic, reference)",0.04386286672
+full11,20,1.665334537e-16,all,logistic,-0.01852931351
+full11,20,1.665334537e-16,all,logit_logistic,-0.006578356152
+full11,20,1.665334537e-16,all,isotonic,0.008501246804
+full11,20,1.665334537e-16,all,"(PC2 logistic, reference)",0.07999023658
+full11,20,1.665334537e-16,ex2008,logistic,-0.02577632126
+full11,20,1.665334537e-16,ex2008,logit_logistic,-0.009151219846
+full11,20,1.665334537e-16,ex2008,isotonic,0.01182617309
+full11,20,1.665334537e-16,ex2008,"(PC2 logistic, reference)",0.08295549776
+common7,5,2.220446049e-16,all,logit_logistic_eps=0.01,0.07880533695
+common7,5,2.220446049e-16,all,logit_logistic_eps=0.001,0.08096067221
+common7,5,2.220446049e-16,all,logit_logistic_eps=0.0001,0.07982118207
+common7,5,2.220446049e-16,all,logit_logistic_eps=1e-05,0.07825323875
+common7,5,2.220446049e-16,all,logit_logistic_eps=1e-06,0.0763691346
+common7,5,2.220446049e-16,all,logit_logistic_eps=1e-08,0.0728684406
+common7,20,2.775557562e-16,all,logit_logistic_eps=0.01,0.01206004273
+common7,20,2.775557562e-16,all,logit_logistic_eps=0.001,0.002504178509
+common7,20,2.775557562e-16,all,logit_logistic_eps=0.0001,-0.005769971623
+common7,20,2.775557562e-16,all,logit_logistic_eps=1e-05,-0.01240847002
+common7,20,2.775557562e-16,all,logit_logistic_eps=1e-06,-0.01760177081
+common7,20,2.775557562e-16,all,logit_logistic_eps=1e-08,-0.02473967832

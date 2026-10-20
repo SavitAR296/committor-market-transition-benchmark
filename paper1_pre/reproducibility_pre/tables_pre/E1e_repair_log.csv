@@ -1,0 +1,2 @@
+date,volume_original,volume_repaired,source_short,source,check
+2023-05-24,0,3739160000,second vendor,"Tonghuashun (10jqka) daily quote for index SPX on 2023-05-24: 3,739.16 x 10^4 lots x 100 shares, recorded by the authors in October 2026; replacing it by the mean of the adjacent days changes no result by more than 1.4e-5 (E4g)",OHLC equal; volumes on 2023-05-23 and 2023-05-25 equal to Yahoo

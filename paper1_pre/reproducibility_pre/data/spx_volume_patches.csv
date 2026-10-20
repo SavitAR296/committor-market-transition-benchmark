@@ -1,0 +1,2 @@
+date,field,yahoo_value,patched_value,source,vendor_open,vendor_high,vendor_low,vendor_close,check_prev_date,check_prev_volume,check_next_date,check_next_volume,source_url,retrieved_on
+2023-05-24,volume,0,3739160000,"Tonghuashun (10jqka) daily quote for index SPX on 2023-05-24: 3,739.16 x 10^4 lots x 100 shares, recorded by the authors in October 2026; replacing it by the mean of the adjacent days changes no result by more than 1.4e-5 (E4g)",4132.96,4132.96,4103.98,4115.24,2023-05-23,4155320000,2023-05-25,4147760000,n/a (vendor terminal quote; no public URL),2026-10

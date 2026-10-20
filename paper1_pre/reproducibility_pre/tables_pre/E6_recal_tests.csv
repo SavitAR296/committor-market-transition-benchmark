@@ -1,0 +1,17 @@
+horizon,calibrator,sample,BSS
+5,logistic on S (frozen),2008-2026,0.1187798687
+5,logistic on S (frozen),2009-2026,0.1520524245
+5,logistic on S (frozen),2008-2020,0.07354012117
+5,logistic on S (frozen),2009-2020,0.1113194501
+5,logistic on annually standardised logit S,2008-2026,-0.02416391514
+5,logistic on annually standardised logit S,2009-2026,-0.03093269865
+5,logistic on annually standardised logit S,2008-2020,-0.0505001319
+5,logistic on annually standardised logit S,2009-2020,-0.07644326418
+20,logistic on S (frozen),2008-2026,0.08465748673
+20,logistic on S (frozen),2009-2026,0.1040749763
+20,logistic on S (frozen),2008-2020,0.0001134145504
+20,logistic on S (frozen),2009-2020,0.0001577567161
+20,logistic on annually standardised logit S,2008-2026,-0.07825785022
+20,logistic on annually standardised logit S,2009-2026,-0.09620748526
+20,logistic on annually standardised logit S,2008-2020,-0.1312474923
+20,logistic on annually standardised logit S,2009-2020,-0.1825618785

@@ -1,0 +1,5 @@
+method,n_matched,max_abs_dAUC,max_abs_dBSS
+oracle_pde,144,1.110223025e-16,5.551115123e-17
+latent_flex,144,1.110223025e-16,5.551115123e-17
+rolling_flex,144,1.110223025e-16,8.326672685e-17
+rolling_ou,144,1.110223025e-16,9.714451465e-17
