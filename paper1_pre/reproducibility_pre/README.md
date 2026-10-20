@@ -1,10 +1,9 @@
-# Reproducibility package — Paper 1 (Physical Review E)
+# Reproducibility package v2 — PRE version of Paper B
 
-Manuscript: *Observer-induced irreversibility in trailing-window early-warning states*, B. Xing and
-J. Pan (`../manuscript/main.pdf`, Supplemental Material `../manuscript/supplement.pdf`).  The frozen
-legacy package (the never-submitted single-author draft) is kept unchanged in `../reproducibility/`
-(frozen inputs and results; documentation fixes only, see `CHANGELOG_legacy.md`); everything new
-lives here.
+Manuscript: *Trailing-window observation of transition dynamics: exact information loss and observer-induced
+irreversibility, with an application to market stress* (`../manuscript/main.pdf`, Supplemental Material
+`../manuscript/supplement.pdf`).  The CSF-era package is kept unchanged in `../reproducibility/` (frozen inputs and
+results; documentation fixes only, see `CHANGELOG_legacy.md`); everything new lives here.
 
 ## Quick start
 ```bash
@@ -39,29 +38,17 @@ interrupting and resuming does not change any number.
 | tab1_gaussian, tab2_matched, tab3_irreversibility, make_tables_pre | Tables I–III and S1–S12 → ../manuscript/tables/ (+ tab2/tab3 CSVs) | – | – |
 | run_queue | driver used in a 300-s-per-command sandbox; not needed with `make all` | – | – |
 
-See `README_P1.md` for the canonical run order (`make -f Makefile_P1`), the per-step seeds and
-runtimes, and the record of the 2023-05-24 volume repair.
-
 ## Data provenance
 * `../reproducibility/data/sp500-2000.csv`: vega-datasets snapshot of Yahoo Finance ^GSPC, 2000-01-03..2020-04-17 (frozen).
-* `data/sp500_2020-04-01_to_2026-10-16_upload.csv`: ^GSPC daily OHLCV downloaded by the authors in
-  October 2026 through Yahoo Finance's chart interface
-  (`query2.finance.yahoo.com/v8/finance/chart/^GSPC`; identical volumes to the chart-API file
-  `data/spx_yahoo_chart_api_2019-01-02_2026-10-16.csv` on all 1645 common days); validated on 12
-  overlapping days against the frozen snapshot.
-* `data/spx_2000_2026.csv`: spliced file (frozen snapshot through 2020-04-17, then the download).
+* `data/sp500_2020-04-01_to_2026-10-16_upload.csv`: ^GSPC daily OHLCV supplied by the author on 2026-10-17
+  (**source and download date to be recorded by the author before deposition**); validated on 12 overlapping days.
+* `data/spx_2000_2026.csv`: spliced file (frozen snapshot through 2020-04-17, then the supplied file).
 * VIX: `../reproducibility/data/vix_daily.csv` (frozen, to 2026-09-04) and
   `data/vix_daily_datahub_retrieved_2026-10-17.csv` (datahub finance-vix, to 2026-09-22); merged in `data/vix_2000_2026.csv`.
 * Bitcoin and Ether: Coin Metrics community data in `../reproducibility/data/` (BTC first price 2010-07-18; used from 2013-01-01; ETH from 2016-03-01).
-
-The small frozen chart-API snapshot above (the exact window used by the paper, ~6.5 years of daily
-OHLCV) is bundled as a reproducibility convenience; `E1b_splice_yahoo.py` regenerates it from the
-source, and `README_P1.md` documents the download, the data gate and the SHA-256 checksums. No
-vendor data beyond this window is redistributed.
 
 ## Where each manuscript item comes from
 Table I `T2_table1_closed_form.csv`; Table II `tab2_matched.csv` (frozen headline sample for the first two blocks);
 Table III `tab3_irreversibility.csv`; Fig. 2 `S1_*`, `S2_*`, `E4_*`, `E4b_*`; Fig. 3 frozen `B_synthetic_phase.csv`, `S4_*`,
 `S4b_*`, `S4c_*`, `S5_*`; Fig. 4 `E5_*`; Fig. 5 `E6_*`; Fig. 6 `E7_*`; Fig. C1 frozen `B_fig1_doublewell.pdf`.
-The Zenodo DOI and release commit cited in the manuscript are listed in `../manuscript/main.tex`
-(`\ZenodoDOI`, `\RepoCommit`) and in the repository root `../README.md`.
+Before submission: update the Zenodo record and commit hash so that the manuscript URL and this README agree.

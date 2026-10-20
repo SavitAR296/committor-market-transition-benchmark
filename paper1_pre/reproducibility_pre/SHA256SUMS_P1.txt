@@ -89,7 +89,7 @@ fe50c9b7cc191ac53be2cd5eeff0b9f9274bf22305be44735ebb6ff6e5a6ac21  figures_p1/fig
 323b528194e977cde45d4b62804bd78d3c75db015de5d5edf70fd3f316a9342b  ../manuscript/supplement.pdf
 e00367385a4246c5156daa5acd1de005cc312a73896df2eab50d79c386402a43  ../manuscript/appendices.tex
 2c693004352def8544cdb7650aba695b2c8057014f8e78439ee1d7346998edda  ../manuscript/cover_letter.tex
-305c2840f406326fd67232ccd4c2279e395cd3ef7458b132f79dcf9853a1ff33  ../manuscript/main.tex
+0406375dc0da8035d77b930d045d15bf3f2a8390896148b63a1c3a801e729ec0  ../manuscript/main.tex
 34e621b6fd253304bd99d1fc674571deb299322ef23d78fc0ca76a46caf40880  ../manuscript/refs.tex
 7026e6392dc1c8cb2548145af5602c2f441edf31b6d0b9e843a21fea9d089f0b  ../manuscript/sec1_intro.tex
 a7eeeb994ffdf0e99b919d09ea85e82b6f8b4127cd83932ade9650257591760a  ../manuscript/sec2_theory.tex
@@ -159,6 +159,7 @@ fe50c9b7cc191ac53be2cd5eeff0b9f9274bf22305be44735ebb6ff6e5a6ac21  ../manuscript/
 04cfe636488fb386a5d5326fa59fe6a98d2f0114030a491994c11cb3ddb930de  ../manuscript/figures/fig2_gaussian_observer.pdf
 95663e0511309a57021cc1482a1939f64459c52797fa37aa56df7f41908d2592  ../manuscript/figures/fig3_double_well.pdf
 760e1ed042c727eb285af061dbfa0538319f558ff94dcfea9c0d16a541d1c6ff  ../manuscript/figures/fig4_markets.pdf
+8958e589798442840738db51ade594dcba50650952ef83194921792065ccad28  ../manuscript/main.bbl
 61b9ca8a0eae79078bb6bcd4205c582b5f4f2ed0a16ece16a01837cc4718248d  ../manuscript/mainNotes.bib
 aa7be95623fbadc6942f12be701a547d65e5e44b6e9c42da33d1c7aab73afe6d  ../manuscript/main_labels.tex
 f0240892957204f84e3a62e0e0814c14d42b0a262e0723a46137e8402cce9432  ../manuscript/numbers.tex
@@ -205,7 +206,7 @@ bc3fcb0cd0f4c0824d21dbdcbb5cbd74e606fd52e2a74fd7b9d1f058eb48793c  ../reproducibi
 8ff28173f1541907ec49746d60b68c1b3f2497018994f488db20bba247e95692  ../reproducibility_pre/CHANGELOG_legacy.md
 4848ce94479c6db379382d5a8845425ee9aa43d71cb9c5ace8dc5fadf383e34f  ../reproducibility_pre/Makefile
 690e67d28f4024bfe9aeecc2a8fda612c4835c9eed6b57e9bed30e474d522c48  ../reproducibility_pre/Makefile_P1
-a20d6e1e928ed2a73e22b9ce526878ced15f73003df67bb63cb7d65d031114d2  ../reproducibility_pre/README.md
+5f45af650fe6f9ac4453d3f7518f4ed7859256014a5ba31142bb368367cc2fd4  ../reproducibility_pre/README.md
 a4b8e1ced392691dcae617ceeea4a11ea3e2ae96b4d725e212921d9678cc5c64  ../reproducibility_pre/README_P1.md
 17a9a3e178ce24cd578a8f97aa3b5298f44ae6f156bb6ea8a120eecbdf8cc168  ../reproducibility_pre/data/archive_vijinho_sp500_1950_2018.csv
 6b84f34f2528b386596b20de6a62b0acc3ded62a9aee48d28417dd05313ca264  ../reproducibility_pre/data/sp500_2020-04-01_to_2026-10-16_upload.csv

@@ -1,0 +1,2 @@
+file,sha256,rows,only_in_paper1_yahoo,only_in_upload,common_days,max_abs_close_diff,volume_days_different,analysis_input,reason
+spx_yahoo_2019_2026_without_2023-05-24_upload.csv,1344997aee19473268145972be43b38317dc79af3e1c976cc2302b63d0b3ec8a,1958,2023-05-24,,1958,0,0,False,"Paper 1 (README_P1, E1e): dropping a day merges two returns and shifts trailing windows"

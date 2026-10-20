@@ -1,0 +1,37 @@
+case,fact,value
+2011,window,2011-07-01..2011-11-30
+2011,trading days,106
+2011,entries,1
+2011,entry dates,2011-08-08
+2011,saturated days S5>0.99 outside the set,29
+2011,saturated days followed by an entry within 5 days,2
+2011,first entry,2011-08-08
+2011,first S5>0.99 in the 20 days before,2011-08-04
+2011,lead of that alarm (trading days),2
+2011,max seq-cal (h=5) in the 20 days before,0.262
+2011,max PC2 GBT (h=5) in the 20 days before,0.4157
+2011,training climatology (h=5),0.0427
+2020,window,2020-01-15..2020-04-17
+2020,trading days,65
+2020,entries,2
+2020,entry dates,2020-02-27;2020-03-05
+2020,saturated days S5>0.99 outside the set,12
+2020,saturated days followed by an entry within 5 days,3
+2020,first entry,2020-02-27
+2020,first S5>0.99 in the 20 days before,2020-02-25
+2020,lead of that alarm (trading days),2
+2020,max seq-cal (h=5) in the 20 days before,0.2485
+2020,max PC2 GBT (h=5) in the 20 days before,0.2549
+2020,training climatology (h=5),0.0299
+2025,window,2025-02-15..2025-05-30
+2025,trading days,72
+2025,entries,3
+2025,entry dates,2025-04-04;2025-04-10;2025-04-16
+2025,saturated days S5>0.99 outside the set,15
+2025,saturated days followed by an entry within 5 days,6
+2025,first entry,2025-04-04
+2025,first S5>0.99 in the 20 days before,2025-03-19
+2025,lead of that alarm (trading days),12
+2025,max seq-cal (h=5) in the 20 days before,0.2844
+2025,max PC2 GBT (h=5) in the 20 days before,0.3148
+2025,training climatology (h=5),0.0358

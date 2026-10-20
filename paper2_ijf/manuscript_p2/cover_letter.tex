@@ -1,0 +1,19 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\signature{Boyan Xing (corresponding author)\\Department of Mathematical Sciences, Beijing Normal-Hong Kong Baptist University, Zhuhai, China\\t330025089@mail.bnbu.edu.cn\\[4pt]on behalf of both authors (Boyan Xing and Jiayi Pan)}
+\address{}
+\newcommand{\ZenodoDOI}{10.5281/zenodo.23491759}
+\begin{document}
+\begin{letter}{The Editors\\International Journal of Forecasting}
+\opening{Dear Editors,}
+We submit ``What does a committor score forecast? Hitting-probability warnings of market stress, their target and their evaluation'' as a research article. Warnings that report the probability, under fitted or learned dynamics, of reaching a learned region of the state space are spreading from atmospheric science and climate modelling to finance. The paper contributes three things to their evaluation, none of which depends on the committor construction, which serves as the case study: a diagnosis of target mismatch that applies the CORP decomposition once against the score's own target and once against the operational event; episode-level inference, whose need we quantify by simulation---a day-level test rejects a true null of no drift in more than nine samples out of ten, while a permutation test with episodes as units holds its size; and comparisons of forecasts with few episodes by fixed-smoothing tests, the model confidence set and the Giacomini--White test on a finite-memory version of the forecasts, with bootstrap blocks tied to the horizon.
+
+For the S\&P~500 the answer is largely negative and, we believe, useful: the committor score is a monotone transform of a linear stress index, calibrated for its own target but not for market stress, and after recalibration it cannot be distinguished from the recalibrated index or from simple classifiers, because daily data contain only 9 to 34 independent stress episodes per sample. The paper ends with four practices that apply to any score of proximity to a learned region.
+
+A companion manuscript by the same authors, ``Observer-induced irreversibility in trailing-window early-warning states,'' is submitted to \emph{Physical Review E} and is provided as a related manuscript. It analyses the irreversibility and information content of the trailing-window state on which the score is built and contains no forecast evaluation; the data and features are shared, are described in its Appendix~E and are only summarized here. The manuscript is not under consideration elsewhere. Anonymized code, data and SHA-256 manifests are provided as supplementary material; a public archive will be deposited upon acceptance. Every number in the text is generated as a macro with its source table. Generative AI: we used Claude (Anthropic) to edit the text and AI coding assistants to develop analysis code; the authors ran every script and take full responsibility for the content. The research received no specific funding, and the authors have no competing interests. One of us (B. Xing) has a single-author manuscript under revision at Chaos, Solitons \& Fractals (CHAOS-D-26-09420); it shares no data, code or result with the present paper.
+
+We suggest as referees, none of whom has collaborated with either author: Tilmann Gneiting (Heidelberg Institute for Theoretical Studies and Karlsruhe Institute of Technology; evaluation of probabilistic forecasts), Timo Dimitriadis (Heidelberg University; CORP reliability diagrams and the triptych), Barbara Rossi (Universitat Pompeu Fabra; forecast comparison under instability), Mathias Drehmann (Bank for International Settlements; evaluation of early-warning indicators) and Christophe Hurlin (Universit\'e d'Orl\'eans; statistical evaluation of early-warning systems).
+\closing{Sincerely,}
+\end{letter}
+\end{document}

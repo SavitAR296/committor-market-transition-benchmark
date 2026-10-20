@@ -1,0 +1,10 @@
+# Paper 2 (IJF) reproducibility environment — tested with Python 3.12.3.
+# Versions mirror Paper 1 (reproducibility_pre/requirements.txt).
+numpy==2.4.4
+scipy==1.16.1
+pandas==3.0.2
+scikit-learn==1.7.2
+matplotlib==3.10.3
+deeptime==0.4.5        # optional: used by P2_e3_frozen only for the MSM scoring variant;
+                       # the frozen MSM tables ship in tables_p2/, so a run without deeptime
+                       # reproduces every table in the paper except the MSM rebuild.

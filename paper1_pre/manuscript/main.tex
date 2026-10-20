@@ -9,9 +9,9 @@
 \input{numbers}% result numbers, written by reproducibility_pre/scripts/P1_numbers.py
 \InputIfFileExists{supp_labels}{}{}% supplemental table numbers, written by sync_labels.py
 \newcommand{\Sref}[1]{\ifcsname supp@#1\endcsname\csname supp@#1\endcsname\else S??\fi}
-% ---- submission metadata: filled at release; see ZENODO_DEPOSIT.md in the repository root
-\newcommand{\ZenodoDOI}{\textbf{10.5281/zenodo.23491759}}% filled after the Zenodo v2.0.0 deposit
-\newcommand{\RepoCommit}{b9fa527fe40fb43de2a91d7634305ddeaa34cf0b}
+% ---- submission metadata (AUTHOR_INPUT_NEEDED): replace before submission
+\newcommand{\ZenodoDOI}{10.5281/zenodo.23491759}
+\newcommand{\RepoCommit}{\textbf{[commit hash]}}
 \newenvironment{proof}{\par\noindent\emph{Proof.}\ }{\hfill$\square$\par}
 \makeatletter\g@addto@macro\UrlBreaks{\do\_\do\/\do\.\do-}\makeatother
 \renewcommand{\dbltopfraction}{0.92}\renewcommand{\topfraction}{0.92}\renewcommand{\textfraction}{0.06}
@@ -40,6 +40,7 @@ Early-warning indicators are built from trailing windows. For linear filters of 
 \input{sec3_information}
 \input{sec4_markets}
 \input{sec5_discussion}
+\input{sec5b_stommel}
 
 \begin{acknowledgments}
 We used AI assistants, including Claude (Anthropic), to develop analysis code and to edit the text; every numerical result was produced by the deposited, seeded scripts, which the authors ran and checked, and the authors take full responsibility for the content.

@@ -1,0 +1,15 @@
+horizon,test,clusters,years,n_clusters,stat,df,p_value,dispersion,valid
+5,day-level chi-square (independence assumed),days,9,273,27.1282877,8,0.0006718112801,,False
+5,cluster permutation,"episodes, gap h",9,28,27.1282877,,0.9075,,True
+5,quasi-binomial F,"episodes, gap h",9,28,0.409699585,19,0.9009969748,8.822240543,True
+5,cluster permutation,"episodes, gap 2h",9,24,27.1282877,,0.8943,,True
+5,quasi-binomial F,"episodes, gap 2h",9,24,0.4012687281,15,0.9027189649,9.007600233,True
+5,cluster permutation,20-day blocks,9,40,27.1282877,,0.6306,,True
+5,quasi-binomial F,20-day blocks,9,40,0.6993965178,31,0.689435793,5.167981534,True
+20,day-level chi-square (independence assumed),days,9,276,50.28734154,8,3.598664975e-08,,False
+20,cluster permutation,"episodes, gap h",9,15,50.28734154,,0.655,,True
+20,quasi-binomial F,"episodes, gap h",9,15,0.6892164685,6,0.6949624836,10.31186417,True
+20,cluster permutation,"episodes, gap 2h",9,10,50.28734154,,0.455,,True
+20,quasi-binomial F,"episodes, gap 2h",9,10,2.633026897,1,0.4451587116,2.699215344,True
+20,cluster permutation,20-day blocks,9,40,50.28734154,,0.4489,,True
+20,quasi-binomial F,20-day blocks,9,40,1.143924242,31,0.3630324072,6.212917202,True

@@ -1,0 +1,481 @@
+window,horizon,sample,comparator,mean_d,test,variance,stat,df,p_value
+exp,5,2008-2026,msm_seqcal,-0.0001270023817,unconditional,NW lag 4,-0.5992308961,,0.5490189224
+exp,5,2008-2026,msm_seqcal,-0.0001270023817,unconditional,NW lag 20,-0.6613858043,,0.5083649273
+exp,5,2008-2026,msm_seqcal,-0.0001270023817,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.7250093063,108,0.4700142406
+exp,5,2008-2026,msm_seqcal,-0.0001270023817,"conditional (1, d_{t-h})",NW lag 4,5.232381611,2,0.07308071196
+exp,5,2008-2026,msm_seqcal,-0.0001270023817,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.590900658,108,0.2085230928
+exp,5,2008-2026,amc_seqcal,7.778010204e-06,unconditional,NW lag 4,0.06715113513,,0.9464613858
+exp,5,2008-2026,amc_seqcal,7.778010204e-06,unconditional,NW lag 20,0.06149282265,,0.9509667303
+exp,5,2008-2026,amc_seqcal,7.778010204e-06,unconditional,"EWC nu=108 (fixed-b, t_nu)",0.06680516261,108,0.9468603288
+exp,5,2008-2026,amc_seqcal,7.778010204e-06,"conditional (1, d_{t-h})",NW lag 4,0.4576144579,2,0.7954818646
+exp,5,2008-2026,amc_seqcal,7.778010204e-06,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.3477519325,108,0.7070692942
+exp,5,2008-2026,pc2_logistic,-0.0005559027754,unconditional,NW lag 4,-0.3569659095,,0.7211173269
+exp,5,2008-2026,pc2_logistic,-0.0005559027754,unconditional,NW lag 20,-0.311770536,,0.7552149176
+exp,5,2008-2026,pc2_logistic,-0.0005559027754,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.3352272368,108,0.7381039426
+exp,5,2008-2026,pc2_logistic,-0.0005559027754,"conditional (1, d_{t-h})",NW lag 4,3.129771996,2,0.209111851
+exp,5,2008-2026,pc2_logistic,-0.0005559027754,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.866975962,108,0.1595913444
+exp,5,2008-2026,pc2_gbt,0.002516937445,unconditional,NW lag 4,2.051463681,,0.04022181307
+exp,5,2008-2026,pc2_gbt,0.002516937445,unconditional,NW lag 20,1.627427778,,0.103646276
+exp,5,2008-2026,pc2_gbt,0.002516937445,unconditional,"EWC nu=108 (fixed-b, t_nu)",1.533610588,108,0.1280497516
+exp,5,2008-2026,pc2_gbt,0.002516937445,"conditional (1, d_{t-h})",NW lag 4,3.578428051,2,0.1670914477
+exp,5,2008-2026,pc2_gbt,0.002516937445,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.198408831,108,0.3056900234
+exp,5,2008-2026,raw_logistic,-0.0007241660569,unconditional,NW lag 4,-0.5026981518,,0.6151765093
+exp,5,2008-2026,raw_logistic,-0.0007241660569,unconditional,NW lag 20,-0.4032423401,,0.6867699548
+exp,5,2008-2026,raw_logistic,-0.0007241660569,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.4018198894,108,0.6886106411
+exp,5,2008-2026,raw_logistic,-0.0007241660569,"conditional (1, d_{t-h})",NW lag 4,3.63592714,2,0.1623560413
+exp,5,2008-2026,raw_logistic,-0.0007241660569,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",2.101468222,108,0.1272953207
+exp,5,2008-2026,raw_gbt,-9.982763599e-05,unconditional,NW lag 4,-0.07064080632,,0.9436836328
+exp,5,2008-2026,raw_gbt,-9.982763599e-05,unconditional,NW lag 20,-0.058267715,,0.9535353835
+exp,5,2008-2026,raw_gbt,-9.982763599e-05,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.05836763682,108,0.9535636517
+exp,5,2008-2026,raw_gbt,-9.982763599e-05,"conditional (1, d_{t-h})",NW lag 4,2.000152644,2,0.367851365
+exp,5,2008-2026,raw_gbt,-9.982763599e-05,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.110757004,108,0.3330763644
+exp,5,2009-2026,msm_seqcal,-0.000132515252,unconditional,NW lag 4,-0.5992389303,,0.5490135656
+exp,5,2009-2026,msm_seqcal,-0.000132515252,unconditional,NW lag 20,-0.6617021871,,0.5081621028
+exp,5,2009-2026,msm_seqcal,-0.000132515252,unconditional,"EWC nu=105 (fixed-b, t_nu)",-0.6356857639,105,0.5263643287
+exp,5,2009-2026,msm_seqcal,-0.000132515252,"conditional (1, d_{t-h})",NW lag 4,5.160237606,2,0.07576500237
+exp,5,2009-2026,msm_seqcal,-0.000132515252,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.565175157,105,0.2139352462
+exp,5,2009-2026,amc_seqcal,8.115635067e-06,unconditional,NW lag 4,0.06715112871,,0.9464613909
+exp,5,2009-2026,amc_seqcal,8.115635067e-06,unconditional,NW lag 20,0.06148977385,,0.9509691583
+exp,5,2009-2026,amc_seqcal,8.115635067e-06,unconditional,"EWC nu=105 (fixed-b, t_nu)",0.05411922114,105,0.956943016
+exp,5,2009-2026,amc_seqcal,8.115635067e-06,"conditional (1, d_{t-h})",NW lag 4,0.5413277657,2,0.762872868
+exp,5,2009-2026,amc_seqcal,8.115635067e-06,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.3768354773,105,0.6869617907
+exp,5,2009-2026,pc2_logistic,-0.002117969104,unconditional,NW lag 4,-2.241783439,,0.02497537208
+exp,5,2009-2026,pc2_logistic,-0.002117969104,unconditional,NW lag 20,-1.910597924,,0.05605627137
+exp,5,2009-2026,pc2_logistic,-0.002117969104,unconditional,"EWC nu=105 (fixed-b, t_nu)",-1.855776536,105,0.06628990657
+exp,5,2009-2026,pc2_logistic,-0.002117969104,"conditional (1, d_{t-h})",NW lag 4,5.04602563,2,0.08021756166
+exp,5,2009-2026,pc2_logistic,-0.002117969104,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.738491711,105,0.1808544843
+exp,5,2009-2026,pc2_gbt,0.0007719401702,unconditional,NW lag 4,1.291823629,,0.1964182305
+exp,5,2009-2026,pc2_gbt,0.0007719401702,unconditional,NW lag 20,1.192095483,,0.2332238079
+exp,5,2009-2026,pc2_gbt,0.0007719401702,unconditional,"EWC nu=105 (fixed-b, t_nu)",1.155796861,105,0.2503874489
+exp,5,2009-2026,pc2_gbt,0.0007719401702,"conditional (1, d_{t-h})",NW lag 4,1.947056666,2,0.3777478638
+exp,5,2009-2026,pc2_gbt,0.0007719401702,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.961882283,105,0.3855462309
+exp,5,2009-2026,raw_logistic,-0.002404969683,unconditional,NW lag 4,-2.546826237,,0.01087075476
+exp,5,2009-2026,raw_logistic,-0.002404969683,unconditional,NW lag 20,-2.146045301,,0.03186936463
+exp,5,2009-2026,raw_logistic,-0.002404969683,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.046389179,105,0.04321652864
+exp,5,2009-2026,raw_logistic,-0.002404969683,"conditional (1, d_{t-h})",NW lag 4,6.478423679,2,0.0391947747
+exp,5,2009-2026,raw_logistic,-0.002404969683,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",2.045317624,105,0.1345098367
+exp,5,2009-2026,raw_gbt,-0.001064377648,unconditional,NW lag 4,-0.9491230115,,0.342558052
+exp,5,2009-2026,raw_gbt,-0.001064377648,unconditional,NW lag 20,-0.8556690397,,0.39218087
+exp,5,2009-2026,raw_gbt,-0.001064377648,unconditional,"EWC nu=105 (fixed-b, t_nu)",-0.8863235364,105,0.3774686844
+exp,5,2009-2026,raw_gbt,-0.001064377648,"conditional (1, d_{t-h})",NW lag 4,1.049219594,2,0.5917862361
+exp,5,2009-2026,raw_gbt,-0.001064377648,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.4184786453,105,0.6591502739
+exp,5,2008-2020,msm_seqcal,-0.0001108867907,unconditional,NW lag 4,-0.4686653739,,0.6393088409
+exp,5,2008-2020,msm_seqcal,-0.0001108867907,unconditional,NW lag 20,-0.5165788112,,0.6054502101
+exp,5,2008-2020,msm_seqcal,-0.0001108867907,unconditional,"EWC nu=81 (fixed-b, t_nu)",-0.4966109567,81,0.6208085323
+exp,5,2008-2020,msm_seqcal,-0.0001108867907,"conditional (1, d_{t-h})",NW lag 4,2.915364747,2,0.2327751359
+exp,5,2008-2020,msm_seqcal,-0.0001108867907,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.389774592,81,0.255080467
+exp,5,2008-2020,amc_seqcal,-6.119454065e-06,unconditional,NW lag 4,-0.04691571465,,0.9625804034
+exp,5,2008-2020,amc_seqcal,-6.119454065e-06,unconditional,NW lag 20,-0.04050394428,,0.9676913625
+exp,5,2008-2020,amc_seqcal,-6.119454065e-06,unconditional,"EWC nu=81 (fixed-b, t_nu)",-0.0400825503,81,0.9681259453
+exp,5,2008-2020,amc_seqcal,-6.119454065e-06,"conditional (1, d_{t-h})",NW lag 4,2.402819767,2,0.3007698623
+exp,5,2008-2020,amc_seqcal,-6.119454065e-06,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.699587758,81,0.1892906622
+exp,5,2008-2020,pc2_logistic,0.001316885763,unconditional,NW lag 4,0.6109735159,,0.5412171136
+exp,5,2008-2020,pc2_logistic,0.001316885763,unconditional,NW lag 20,0.5446962526,,0.5859624426
+exp,5,2008-2020,pc2_logistic,0.001316885763,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.5589846354,81,0.5777144232
+exp,5,2008-2020,pc2_logistic,0.001316885763,"conditional (1, d_{t-h})",NW lag 4,0.9287594275,2,0.6285248496
+exp,5,2008-2020,pc2_logistic,0.001316885763,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.78142305,81,0.4612162541
+exp,5,2008-2020,pc2_gbt,0.003560136138,unconditional,NW lag 4,1.985626227,,0.04707484205
+exp,5,2008-2020,pc2_gbt,0.003560136138,unconditional,NW lag 20,1.571946603,,0.1159629353
+exp,5,2008-2020,pc2_gbt,0.003560136138,unconditional,"EWC nu=81 (fixed-b, t_nu)",1.435048904,81,0.155123269
+exp,5,2008-2020,pc2_gbt,0.003560136138,"conditional (1, d_{t-h})",NW lag 4,3.351206723,2,0.187195199
+exp,5,2008-2020,pc2_gbt,0.003560136138,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.213300249,81,0.3026243932
+exp,5,2008-2020,raw_logistic,0.00110969923,unconditional,NW lag 4,0.5671042673,,0.5706433439
+exp,5,2008-2020,raw_logistic,0.00110969923,unconditional,NW lag 20,0.4531359432,,0.6504508548
+exp,5,2008-2020,raw_logistic,0.00110969923,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.4385327386,81,0.6621675722
+exp,5,2008-2020,raw_logistic,0.00110969923,"conditional (1, d_{t-h})",NW lag 4,1.292179886,2,0.5240910013
+exp,5,2008-2020,raw_logistic,0.00110969923,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.030875918,81,0.3613833351
+exp,5,2008-2020,raw_gbt,0.0003787524167,unconditional,NW lag 4,0.1855963333,,0.8527613292
+exp,5,2008-2020,raw_gbt,0.0003787524167,unconditional,NW lag 20,0.1505914489,,0.8802980072
+exp,5,2008-2020,raw_gbt,0.0003787524167,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.1486257649,81,0.8822183356
+exp,5,2008-2020,raw_gbt,0.0003787524167,"conditional (1, d_{t-h})",NW lag 4,1.742859586,2,0.4183529632
+exp,5,2008-2020,raw_gbt,0.0003787524167,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.9602155241,81,0.3871776928
+exp,5,2009-2020,msm_seqcal,-0.0001184879014,unconditional,NW lag 4,-0.468676043,,0.6393012136
+exp,5,2009-2020,msm_seqcal,-0.0001184879014,unconditional,NW lag 20,-0.5169976219,,0.6051578189
+exp,5,2009-2020,msm_seqcal,-0.0001184879014,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.4298139899,78,0.668516046
+exp,5,2009-2020,msm_seqcal,-0.0001184879014,"conditional (1, d_{t-h})",NW lag 4,3.166735784,2,0.2052825632
+exp,5,2009-2020,msm_seqcal,-0.0001184879014,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.37096923,77,0.2600666304
+exp,5,2009-2020,amc_seqcal,-6.538932771e-06,unconditional,NW lag 4,-0.04691573451,,0.9625803876
+exp,5,2009-2020,amc_seqcal,-6.538932771e-06,unconditional,NW lag 20,-0.040506663,,0.9676891951
+exp,5,2009-2020,amc_seqcal,-6.538932771e-06,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.03152017244,78,0.9749352207
+exp,5,2009-2020,amc_seqcal,-6.538932771e-06,"conditional (1, d_{t-h})",NW lag 4,3.097962833,2,0.2124642762
+exp,5,2009-2020,amc_seqcal,-6.538932771e-06,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.870589507,77,0.1610555541
+exp,5,2009-2020,pc2_logistic,-0.001021519766,unconditional,NW lag 4,-1.042948644,,0.2969720789
+exp,5,2009-2020,pc2_logistic,-0.001021519766,unconditional,NW lag 20,-0.9487134199,,0.3427663868
+exp,5,2009-2020,pc2_logistic,-0.001021519766,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.9132662847,78,0.3639168312
+exp,5,2009-2020,pc2_logistic,-0.001021519766,"conditional (1, d_{t-h})",NW lag 4,1.095313611,2,0.5783033011
+exp,5,2009-2020,pc2_logistic,-0.001021519766,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.5920519992,77,0.5557219644
+exp,5,2009-2020,pc2_gbt,0.0008759828749,unconditional,NW lag 4,1.264485968,,0.2060556539
+exp,5,2009-2020,pc2_gbt,0.0008759828749,unconditional,NW lag 20,1.339155419,,0.1805200821
+exp,5,2009-2020,pc2_gbt,0.0008759828749,unconditional,"EWC nu=78 (fixed-b, t_nu)",1.353590453,78,0.1797765874
+exp,5,2009-2020,pc2_gbt,0.0008759828749,"conditional (1, d_{t-h})",NW lag 4,2.887364519,2,0.2360569335
+exp,5,2009-2020,pc2_gbt,0.0008759828749,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.432217912,77,0.2451494229
+exp,5,2009-2020,raw_logistic,-0.001418881859,unconditional,NW lag 4,-1.436823059,,0.1507682767
+exp,5,2009-2020,raw_logistic,-0.001418881859,unconditional,NW lag 20,-1.25285802,,0.2102573819
+exp,5,2009-2020,raw_logistic,-0.001418881859,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.143354887,78,0.2563883338
+exp,5,2009-2020,raw_logistic,-0.001418881859,"conditional (1, d_{t-h})",NW lag 4,2.148320626,2,0.3415844589
+exp,5,2009-2020,raw_logistic,-0.001418881859,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.8905182665,77,0.4146817322
+exp,5,2009-2020,raw_gbt,-0.001111638706,unconditional,NW lag 4,-0.7072292543,,0.4794240215
+exp,5,2009-2020,raw_gbt,-0.001111638706,unconditional,NW lag 20,-0.6294898123,,0.5290284363
+exp,5,2009-2020,raw_gbt,-0.001111638706,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.6414263185,78,0.5231261374
+exp,5,2009-2020,raw_gbt,-0.001111638706,"conditional (1, d_{t-h})",NW lag 4,0.6169392685,2,0.7345702576
+exp,5,2009-2020,raw_gbt,-0.001111638706,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.2398924016,77,0.7873059447
+exp,20,2008-2026,msm_seqcal,-0.00174272994,unconditional,NW lag 19,-2.479342502,,0.01316248461
+exp,20,2008-2026,msm_seqcal,-0.00174272994,unconditional,NW lag 20,-2.451062695,,0.01424351422
+exp,20,2008-2026,msm_seqcal,-0.00174272994,unconditional,"EWC nu=108 (fixed-b, t_nu)",-2.111746236,108,0.03701446423
+exp,20,2008-2026,msm_seqcal,-0.00174272994,"conditional (1, d_{t-h})",NW lag 19,10.83422362,2,0.004439951565
+exp,20,2008-2026,msm_seqcal,-0.00174272994,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",4.309553397,108,0.01584703343
+exp,20,2008-2026,amc_seqcal,-0.001539044012,unconditional,NW lag 19,-2.950724541,,0.003170295142
+exp,20,2008-2026,amc_seqcal,-0.001539044012,unconditional,NW lag 20,-2.91700701,,0.003534078304
+exp,20,2008-2026,amc_seqcal,-0.001539044012,unconditional,"EWC nu=108 (fixed-b, t_nu)",-2.498727501,108,0.01397003946
+exp,20,2008-2026,amc_seqcal,-0.001539044012,"conditional (1, d_{t-h})",NW lag 19,11.84279961,2,0.002681444051
+exp,20,2008-2026,amc_seqcal,-0.001539044012,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",3.98789982,108,0.02135933046
+exp,20,2008-2026,pc2_logistic,0.003567938686,unconditional,NW lag 19,1.210512941,,0.226082128
+exp,20,2008-2026,pc2_logistic,0.003567938686,unconditional,NW lag 20,1.198819752,,0.2305980405
+exp,20,2008-2026,pc2_logistic,0.003567938686,unconditional,"EWC nu=108 (fixed-b, t_nu)",1.053533001,108,0.2944481085
+exp,20,2008-2026,pc2_logistic,0.003567938686,"conditional (1, d_{t-h})",NW lag 19,1.723534857,2,0.4224148341
+exp,20,2008-2026,pc2_logistic,0.003567938686,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.6537517412,108,0.5221555883
+exp,20,2008-2026,pc2_gbt,0.00552847084,unconditional,NW lag 19,1.801141968,,0.0716805064
+exp,20,2008-2026,pc2_gbt,0.00552847084,unconditional,NW lag 20,1.78811033,,0.07375820929
+exp,20,2008-2026,pc2_gbt,0.00552847084,unconditional,"EWC nu=108 (fixed-b, t_nu)",1.506892244,108,0.1347577793
+exp,20,2008-2026,pc2_gbt,0.00552847084,"conditional (1, d_{t-h})",NW lag 19,4.141636654,2,0.1260825627
+exp,20,2008-2026,pc2_gbt,0.00552847084,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.403903124,108,0.2501238417
+exp,20,2008-2026,raw_logistic,0.0007299144639,unconditional,NW lag 19,0.2679822839,,0.7887129556
+exp,20,2008-2026,raw_logistic,0.0007299144639,unconditional,NW lag 20,0.2661902951,,0.7900926569
+exp,20,2008-2026,raw_logistic,0.0007299144639,unconditional,"EWC nu=108 (fixed-b, t_nu)",0.2479420701,108,0.8046500275
+exp,20,2008-2026,raw_logistic,0.0007299144639,"conditional (1, d_{t-h})",NW lag 19,0.02314084435,2,0.9884962577
+exp,20,2008-2026,raw_logistic,0.0007299144639,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.009308816051,108,0.9907351791
+exp,20,2008-2026,raw_gbt,0.001683070527,unconditional,NW lag 19,0.4097954324,,0.6819560171
+exp,20,2008-2026,raw_gbt,0.001683070527,unconditional,NW lag 20,0.4054758651,,0.6851277555
+exp,20,2008-2026,raw_gbt,0.001683070527,unconditional,"EWC nu=108 (fixed-b, t_nu)",0.3364956221,108,0.737150099
+exp,20,2008-2026,raw_gbt,0.001683070527,"conditional (1, d_{t-h})",NW lag 19,1.645710547,2,0.4391758952
+exp,20,2008-2026,raw_gbt,0.001683070527,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.6835091418,108,0.507032708
+exp,20,2009-2026,msm_seqcal,-0.001818642005,unconditional,NW lag 19,-2.482408232,,0.01304976759
+exp,20,2009-2026,msm_seqcal,-0.001818642005,unconditional,NW lag 20,-2.454194909,,0.01412004249
+exp,20,2009-2026,msm_seqcal,-0.001818642005,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.060578507,105,0.04181509651
+exp,20,2009-2026,msm_seqcal,-0.001818642005,"conditional (1, d_{t-h})",NW lag 19,11.84769981,2,0.002674882286
+exp,20,2009-2026,msm_seqcal,-0.001818642005,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",4.767599682,105,0.01044590916
+exp,20,2009-2026,amc_seqcal,-0.001606083665,unconditional,NW lag 19,-2.955538114,,0.003121241298
+exp,20,2009-2026,amc_seqcal,-0.001606083665,unconditional,NW lag 20,-2.921944436,,0.003478535918
+exp,20,2009-2026,amc_seqcal,-0.001606083665,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.475601551,105,0.01490000179
+exp,20,2009-2026,amc_seqcal,-0.001606083665,"conditional (1, d_{t-h})",NW lag 19,13.19823448,2,0.001361569448
+exp,20,2009-2026,amc_seqcal,-0.001606083665,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",4.539979139,105,0.01287301827
+exp,20,2009-2026,pc2_logistic,-0.0006059468061,unconditional,NW lag 19,-0.300543535,,0.7637625942
+exp,20,2009-2026,pc2_logistic,-0.0006059468061,unconditional,NW lag 20,-0.2983045489,,0.7654707327
+exp,20,2009-2026,pc2_logistic,-0.0006059468061,unconditional,"EWC nu=105 (fixed-b, t_nu)",-0.2669635095,105,0.790020874
+exp,20,2009-2026,pc2_logistic,-0.0006059468061,"conditional (1, d_{t-h})",NW lag 19,0.2819520112,2,0.8685101508
+exp,20,2009-2026,pc2_logistic,-0.0006059468061,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.09716994466,105,0.9074840678
+exp,20,2009-2026,pc2_gbt,0.001487432902,unconditional,NW lag 19,0.9521830328,,0.3410041644
+exp,20,2009-2026,pc2_gbt,0.001487432902,unconditional,NW lag 20,0.9456965156,,0.3443034002
+exp,20,2009-2026,pc2_gbt,0.001487432902,unconditional,"EWC nu=105 (fixed-b, t_nu)",0.7790858537,105,0.4376815146
+exp,20,2009-2026,pc2_gbt,0.001487432902,"conditional (1, d_{t-h})",NW lag 19,10.47702385,2,0.005308149896
+exp,20,2009-2026,pc2_gbt,0.001487432902,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",3.915561643,105,0.02293368852
+exp,20,2009-2026,raw_logistic,-0.002301627063,unconditional,NW lag 19,-1.069462639,,0.284861255
+exp,20,2009-2026,raw_logistic,-0.002301627063,unconditional,NW lag 20,-1.062312758,,0.2880937244
+exp,20,2009-2026,raw_logistic,-0.002301627063,unconditional,"EWC nu=105 (fixed-b, t_nu)",-0.9817341384,105,0.3284875295
+exp,20,2009-2026,raw_logistic,-0.002301627063,"conditional (1, d_{t-h})",NW lag 19,1.01947508,2,0.6006532055
+exp,20,2009-2026,raw_logistic,-0.002301627063,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.4967129561,105,0.6099638339
+exp,20,2009-2026,raw_gbt,-0.001510386629,unconditional,NW lag 19,-0.4124307296,,0.6800237434
+exp,20,2009-2026,raw_gbt,-0.001510386629,unconditional,NW lag 20,-0.4070692079,,0.6839571583
+exp,20,2009-2026,raw_gbt,-0.001510386629,unconditional,"EWC nu=105 (fixed-b, t_nu)",-0.3239063898,105,0.7466532089
+exp,20,2009-2026,raw_gbt,-0.001510386629,"conditional (1, d_{t-h})",NW lag 19,2.416667408,2,0.2986945786
+exp,20,2009-2026,raw_gbt,-0.001510386629,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.009203299,105,0.3680505425
+exp,20,2008-2020,msm_seqcal,-0.001643180901,unconditional,NW lag 19,-2.0128877,,0.04412644479
+exp,20,2008-2020,msm_seqcal,-0.001643180901,unconditional,NW lag 20,-1.98903354,,0.046697501
+exp,20,2008-2020,msm_seqcal,-0.001643180901,unconditional,"EWC nu=81 (fixed-b, t_nu)",-1.680775113,81,0.09665916905
+exp,20,2008-2020,msm_seqcal,-0.001643180901,"conditional (1, d_{t-h})",NW lag 19,7.961098113,2,0.01867538268
+exp,20,2008-2020,msm_seqcal,-0.001643180901,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",3.388447072,81,0.03867545175
+exp,20,2008-2020,amc_seqcal,-0.001389026626,unconditional,NW lag 19,-2.361761763,,0.01818832637
+exp,20,2008-2020,amc_seqcal,-0.001389026626,unconditional,NW lag 20,-2.327422655,,0.01994278113
+exp,20,2008-2020,amc_seqcal,-0.001389026626,unconditional,"EWC nu=81 (fixed-b, t_nu)",-1.945769683,81,0.05515083823
+exp,20,2008-2020,amc_seqcal,-0.001389026626,"conditional (1, d_{t-h})",NW lag 19,8.421900038,2,0.0148322707
+exp,20,2008-2020,amc_seqcal,-0.001389026626,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",2.927433952,81,0.05929287451
+exp,20,2008-2020,pc2_logistic,0.009742634956,unconditional,NW lag 19,2.534164006,,0.01127159633
+exp,20,2008-2020,pc2_logistic,0.009742634956,unconditional,NW lag 20,2.508881995,,0.01211139368
+exp,20,2008-2020,pc2_logistic,0.009742634956,unconditional,"EWC nu=81 (fixed-b, t_nu)",2.204358264,81,0.03033644838
+exp,20,2008-2020,pc2_logistic,0.009742634956,"conditional (1, d_{t-h})",NW lag 19,5.832881733,2,0.05412598649
+exp,20,2008-2020,pc2_logistic,0.009742634956,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",2.281297776,81,0.1087595226
+exp,20,2008-2020,pc2_gbt,0.008741987204,unconditional,NW lag 19,1.942325528,,0.05209770449
+exp,20,2008-2020,pc2_gbt,0.008741987204,unconditional,NW lag 20,1.927170937,,0.05395833068
+exp,20,2008-2020,pc2_gbt,0.008741987204,unconditional,"EWC nu=81 (fixed-b, t_nu)",1.607650984,81,0.1118029259
+exp,20,2008-2020,pc2_gbt,0.008741987204,"conditional (1, d_{t-h})",NW lag 19,4.124104427,2,0.1271926753
+exp,20,2008-2020,pc2_gbt,0.008741987204,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.293178292,81,0.280070392
+exp,20,2008-2020,raw_logistic,0.007467655008,unconditional,NW lag 19,2.346257261,,0.01896301366
+exp,20,2008-2020,raw_logistic,0.007467655008,unconditional,NW lag 20,2.330457133,,0.01978200314
+exp,20,2008-2020,raw_logistic,0.007467655008,unconditional,"EWC nu=81 (fixed-b, t_nu)",2.177085121,81,0.03238498002
+exp,20,2008-2020,raw_logistic,0.007467655008,"conditional (1, d_{t-h})",NW lag 19,5.100821817,2,0.07804958818
+exp,20,2008-2020,raw_logistic,0.007467655008,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",2.037015938,81,0.1371274744
+exp,20,2008-2020,raw_gbt,0.003114698874,unconditional,NW lag 19,0.50220825,,0.6155210403
+exp,20,2008-2020,raw_gbt,0.003114698874,unconditional,NW lag 20,0.4965289525,,0.6195212656
+exp,20,2008-2020,raw_gbt,0.003114698874,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.4053225601,81,0.6863089997
+exp,20,2008-2020,raw_gbt,0.003114698874,"conditional (1, d_{t-h})",NW lag 19,1.677919989,2,0.4321597383
+exp,20,2008-2020,raw_gbt,0.003114698874,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.7072055607,81,0.4960758013
+exp,20,2009-2020,msm_seqcal,-0.001755818302,unconditional,NW lag 19,-2.017032446,,0.04369212743
+exp,20,2009-2020,msm_seqcal,-0.001755818302,unconditional,NW lag 20,-1.993262552,,0.0462327047
+exp,20,2009-2020,msm_seqcal,-0.001755818302,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.673701241,78,0.09819527048
+exp,20,2009-2020,msm_seqcal,-0.001755818302,"conditional (1, d_{t-h})",NW lag 19,9.405693634,2,0.009069421333
+exp,20,2009-2020,msm_seqcal,-0.001755818302,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",3.909784975,77,0.0241985995
+exp,20,2009-2020,amc_seqcal,-0.001484242161,unconditional,NW lag 19,-2.368063897,,0.0178814474
+exp,20,2009-2020,amc_seqcal,-0.001484242161,unconditional,NW lag 20,-2.33382861,,0.0196046981
+exp,20,2009-2020,amc_seqcal,-0.001484242161,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.917315538,78,0.05885931622
+exp,20,2009-2020,amc_seqcal,-0.001484242161,"conditional (1, d_{t-h})",NW lag 19,9.936731441,2,0.006954504357
+exp,20,2009-2020,amc_seqcal,-0.001484242161,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",3.490298498,77,0.03546560861
+exp,20,2009-2020,pc2_logistic,0.003597538836,unconditional,NW lag 19,1.805649863,,0.07097304875
+exp,20,2009-2020,pc2_logistic,0.003597538836,unconditional,NW lag 20,1.792998313,,0.07297319378
+exp,20,2009-2020,pc2_logistic,0.003597538836,unconditional,"EWC nu=78 (fixed-b, t_nu)",1.4580696,78,0.1488362039
+exp,20,2009-2020,pc2_logistic,0.003597538836,"conditional (1, d_{t-h})",NW lag 19,7.391140517,2,0.02483328823
+exp,20,2009-2020,pc2_logistic,0.003597538836,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",2.595344918,77,0.08122312848
+exp,20,2009-2020,pc2_gbt,0.002602966563,unconditional,NW lag 19,1.312350428,,0.1894019248
+exp,20,2009-2020,pc2_gbt,0.002602966563,unconditional,NW lag 20,1.29851153,,0.194111617
+exp,20,2009-2020,pc2_gbt,0.002602966563,unconditional,"EWC nu=78 (fixed-b, t_nu)",1.086045698,78,0.2808038129
+exp,20,2009-2020,pc2_gbt,0.002602966563,"conditional (1, d_{t-h})",NW lag 19,7.123328357,2,0.02839153679
+exp,20,2009-2020,pc2_gbt,0.002602966563,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",2.921169058,77,0.05994478972
+exp,20,2009-2020,raw_logistic,0.003158838919,unconditional,NW lag 19,1.707761091,,0.08768068144
+exp,20,2009-2020,raw_logistic,0.003158838919,unconditional,NW lag 20,1.692701272,,0.09051234301
+exp,20,2009-2020,raw_logistic,0.003158838919,unconditional,"EWC nu=78 (fixed-b, t_nu)",1.427444757,78,0.1574430713
+exp,20,2009-2020,raw_logistic,0.003158838919,"conditional (1, d_{t-h})",NW lag 19,3.751660035,2,0.1532277323
+exp,20,2009-2020,raw_logistic,0.003158838919,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.21315478,77,0.3029485614
+exp,20,2009-2020,raw_gbt,-0.001812646093,unconditional,NW lag 19,-0.3221170152,,0.7473640485
+exp,20,2009-2020,raw_gbt,-0.001812646093,unconditional,NW lag 20,-0.3175491765,,0.7508269313
+exp,20,2009-2020,raw_gbt,-0.001812646093,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.2550538096,78,0.7993528451
+exp,20,2009-2020,raw_gbt,-0.001812646093,"conditional (1, d_{t-h})",NW lag 19,2.398227689,2,0.3014612351
+exp,20,2009-2020,raw_gbt,-0.001812646093,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.994555197,77,0.3746500382
+roll5,5,2008-2026,msm_seqcal,0.0001684052607,unconditional,NW lag 4,0.5964717308,,0.5508601335
+roll5,5,2008-2026,msm_seqcal,0.0001684052607,unconditional,NW lag 20,0.4850472246,,0.627642847
+roll5,5,2008-2026,msm_seqcal,0.0001684052607,unconditional,"EWC nu=108 (fixed-b, t_nu)",0.4252611468,108,0.6714924607
+roll5,5,2008-2026,msm_seqcal,0.0001684052607,"conditional (1, d_{t-h})",NW lag 4,1.183143772,2,0.55345663
+roll5,5,2008-2026,msm_seqcal,0.0001684052607,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.6518405553,108,0.5231424262
+roll5,5,2008-2026,amc_seqcal,-0.000312808665,unconditional,NW lag 4,-2.162656829,,0.03056758385
+roll5,5,2008-2026,amc_seqcal,-0.000312808665,unconditional,NW lag 20,-1.701211147,,0.08890334544
+roll5,5,2008-2026,amc_seqcal,-0.000312808665,unconditional,"EWC nu=108 (fixed-b, t_nu)",-1.405090886,108,0.1628641551
+roll5,5,2008-2026,amc_seqcal,-0.000312808665,"conditional (1, d_{t-h})",NW lag 4,5.297451124,2,0.07074131107
+roll5,5,2008-2026,amc_seqcal,-0.000312808665,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.075001135,108,0.3449542741
+roll5,5,2008-2026,pc2_logistic,-0.0001608011787,unconditional,NW lag 4,-0.1086106508,,0.9135113127
+roll5,5,2008-2026,pc2_logistic,-0.0001608011787,unconditional,NW lag 20,-0.09689487931,,0.9228098754
+roll5,5,2008-2026,pc2_logistic,-0.0001608011787,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.1068041994,108,0.9151424599
+roll5,5,2008-2026,pc2_logistic,-0.0001608011787,"conditional (1, d_{t-h})",NW lag 4,2.439440809,2,0.2953127234
+roll5,5,2008-2026,pc2_logistic,-0.0001608011787,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",2.009595625,108,0.1390707943
+roll5,5,2008-2026,pc2_gbt,0.002070113443,unconditional,NW lag 4,1.502056905,,0.1330824133
+roll5,5,2008-2026,pc2_gbt,0.002070113443,unconditional,NW lag 20,1.180333206,,0.2378677162
+roll5,5,2008-2026,pc2_gbt,0.002070113443,unconditional,"EWC nu=108 (fixed-b, t_nu)",1.144612504,108,0.2549000729
+roll5,5,2008-2026,pc2_gbt,0.002070113443,"conditional (1, d_{t-h})",NW lag 4,3.110988947,2,0.2110849809
+roll5,5,2008-2026,pc2_gbt,0.002070113443,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.9984637093,108,0.3718514128
+roll5,5,2008-2026,raw_logistic,-0.0004137713299,unconditional,NW lag 4,-0.3020323957,,0.7626273673
+roll5,5,2008-2026,raw_logistic,-0.0004137713299,unconditional,NW lag 20,-0.2448907068,,0.8065410575
+roll5,5,2008-2026,raw_logistic,-0.0004137713299,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.2436287214,108,0.807980557
+roll5,5,2008-2026,raw_logistic,-0.0004137713299,"conditional (1, d_{t-h})",NW lag 4,3.120414472,2,0.210092528
+roll5,5,2008-2026,raw_logistic,-0.0004137713299,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",3.116638279,108,0.04835252144
+roll5,5,2008-2026,raw_gbt,-0.00101820959,unconditional,NW lag 4,-0.555658306,,0.5784444643
+roll5,5,2008-2026,raw_gbt,-0.00101820959,unconditional,NW lag 20,-0.4617445314,,0.6442645327
+roll5,5,2008-2026,raw_gbt,-0.00101820959,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.4342540371,108,0.6649703101
+roll5,5,2008-2026,raw_gbt,-0.00101820959,"conditional (1, d_{t-h})",NW lag 4,1.112928098,2,0.5732324063
+roll5,5,2008-2026,raw_gbt,-0.00101820959,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.9005475874,108,0.4094042302
+roll5,5,2009-2026,msm_seqcal,0.0001757153312,unconditional,NW lag 4,0.5964745346,,0.550858261
+roll5,5,2009-2026,msm_seqcal,0.0001757153312,unconditional,NW lag 20,0.4849925885,,0.6276816029
+roll5,5,2009-2026,msm_seqcal,0.0001757153312,unconditional,"EWC nu=105 (fixed-b, t_nu)",0.4130664783,105,0.6804002279
+roll5,5,2009-2026,msm_seqcal,0.0001757153312,"conditional (1, d_{t-h})",NW lag 4,0.9620907527,2,0.6181368683
+roll5,5,2009-2026,msm_seqcal,0.0001757153312,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.4493894081,105,0.6392506239
+roll5,5,2009-2026,amc_seqcal,-0.0003263869427,unconditional,NW lag 4,-2.162905717,,0.03054843197
+roll5,5,2009-2026,amc_seqcal,-0.0003263869427,unconditional,NW lag 20,-1.702245807,,0.08870929907
+roll5,5,2009-2026,amc_seqcal,-0.0003263869427,unconditional,"EWC nu=105 (fixed-b, t_nu)",-1.408358893,105,0.1619789632
+roll5,5,2009-2026,amc_seqcal,-0.0003263869427,"conditional (1, d_{t-h})",NW lag 4,6.135630923,2,0.04652267451
+roll5,5,2009-2026,amc_seqcal,-0.0003263869427,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.217139823,105,0.3002578251
+roll5,5,2009-2026,pc2_logistic,-0.001693596423,unconditional,NW lag 4,-2.157189648,,0.0309908907
+roll5,5,2009-2026,pc2_logistic,-0.001693596423,unconditional,NW lag 20,-1.929423445,,0.05367831543
+roll5,5,2009-2026,pc2_logistic,-0.001693596423,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.005486611,105,0.04748364366
+roll5,5,2009-2026,pc2_logistic,-0.001693596423,"conditional (1, d_{t-h})",NW lag 4,4.950774659,2,0.08413039776
+roll5,5,2009-2026,pc2_logistic,-0.001693596423,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",2.244124264,105,0.1111305222
+roll5,5,2009-2026,pc2_gbt,0.000337767165,unconditional,NW lag 4,0.3614457624,,0.7177662434
+roll5,5,2009-2026,pc2_gbt,0.000337767165,unconditional,NW lag 20,0.3018472495,,0.7627685099
+roll5,5,2009-2026,pc2_gbt,0.000337767165,unconditional,"EWC nu=105 (fixed-b, t_nu)",0.3131391836,105,0.7547960703
+roll5,5,2009-2026,pc2_gbt,0.000337767165,"conditional (1, d_{t-h})",NW lag 4,1.74572135,2,0.4177547776
+roll5,5,2009-2026,pc2_gbt,0.000337767165,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.5361798808,105,0.5865869197
+roll5,5,2009-2026,raw_logistic,-0.002080971527,unconditional,NW lag 4,-2.526398843,,0.01152385701
+roll5,5,2009-2026,raw_logistic,-0.002080971527,unconditional,NW lag 20,-2.239558543,,0.02511959664
+roll5,5,2009-2026,raw_logistic,-0.002080971527,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.37064411,105,0.01958155268
+roll5,5,2009-2026,raw_logistic,-0.002080971527,"conditional (1, d_{t-h})",NW lag 4,6.761511172,2,0.03402173867
+roll5,5,2009-2026,raw_logistic,-0.002080971527,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",3.411590179,105,0.03672332233
+roll5,5,2009-2026,raw_gbt,-0.001836017889,unconditional,NW lag 4,-1.094270752,,0.2738362488
+roll5,5,2009-2026,raw_gbt,-0.001836017889,unconditional,NW lag 20,-0.9443848185,,0.3449730366
+roll5,5,2009-2026,raw_gbt,-0.001836017889,unconditional,"EWC nu=105 (fixed-b, t_nu)",-0.9042415404,105,0.3679373427
+roll5,5,2009-2026,raw_gbt,-0.001836017889,"conditional (1, d_{t-h})",NW lag 4,1.243755145,2,0.5369353556
+roll5,5,2009-2026,raw_gbt,-0.001836017889,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",0.4552519248,105,0.6355460996
+roll5,5,2008-2020,msm_seqcal,0.000387554311,unconditional,NW lag 4,1.151436093,,0.2495528725
+roll5,5,2008-2020,msm_seqcal,0.000387554311,unconditional,NW lag 20,1.065957443,,0.2864428803
+roll5,5,2008-2020,msm_seqcal,0.000387554311,unconditional,"EWC nu=81 (fixed-b, t_nu)",1.065790239,81,0.2896850731
+roll5,5,2008-2020,msm_seqcal,0.000387554311,"conditional (1, d_{t-h})",NW lag 4,1.519507245,2,0.4677816637
+roll5,5,2008-2020,msm_seqcal,0.000387554311,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.6976881143,81,0.5007374609
+roll5,5,2008-2020,amc_seqcal,-0.0001544303031,unconditional,NW lag 4,-0.9733093366,,0.3303995835
+roll5,5,2008-2020,amc_seqcal,-0.0001544303031,unconditional,NW lag 20,-0.9391343468,,0.3476617717
+roll5,5,2008-2020,amc_seqcal,-0.0001544303031,unconditional,"EWC nu=81 (fixed-b, t_nu)",-0.9597457534,81,0.3400393293
+roll5,5,2008-2020,amc_seqcal,-0.0001544303031,"conditional (1, d_{t-h})",NW lag 4,1.130372093,2,0.5682544153
+roll5,5,2008-2020,amc_seqcal,-0.0001544303031,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.7100119137,81,0.494709755
+roll5,5,2008-2020,pc2_logistic,0.0004563815943,unconditional,NW lag 4,0.2088056983,,0.8345999228
+roll5,5,2008-2020,pc2_logistic,0.0004563815943,unconditional,NW lag 20,0.1876179647,,0.8511761425
+roll5,5,2008-2020,pc2_logistic,0.0004563815943,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.1939485266,81,0.8467017553
+roll5,5,2008-2020,pc2_logistic,0.0004563815943,"conditional (1, d_{t-h})",NW lag 4,1.630083991,2,0.4426207389
+roll5,5,2008-2020,pc2_logistic,0.0004563815943,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.546621258,81,0.2192659602
+roll5,5,2008-2020,pc2_gbt,0.001661581686,unconditional,NW lag 4,0.8834379332,,0.3769997032
+roll5,5,2008-2020,pc2_gbt,0.001661581686,unconditional,NW lag 20,0.6878104654,,0.4915721448
+roll5,5,2008-2020,pc2_gbt,0.001661581686,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.6407675366,81,0.5234824621
+roll5,5,2008-2020,pc2_gbt,0.001661581686,"conditional (1, d_{t-h})",NW lag 4,3.108791043,2,0.2113170806
+roll5,5,2008-2020,pc2_gbt,0.001661581686,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.37621905,81,0.2584446563
+roll5,5,2008-2020,raw_logistic,5.456530466e-05,unconditional,NW lag 4,0.02765954172,,0.9779336924
+roll5,5,2008-2020,raw_logistic,5.456530466e-05,unconditional,NW lag 20,0.0223045992,,0.9822049802
+roll5,5,2008-2020,raw_logistic,5.456530466e-05,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.02159529412,81,0.9828238971
+roll5,5,2008-2020,raw_logistic,5.456530466e-05,"conditional (1, d_{t-h})",NW lag 4,2.202026995,2,0.3325338905
+roll5,5,2008-2020,raw_logistic,5.456530466e-05,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",2.629904159,81,0.07831147476
+roll5,5,2008-2020,raw_gbt,-0.001924262268,unconditional,NW lag 4,-0.9409196124,,0.3467460562
+roll5,5,2008-2020,raw_gbt,-0.001924262268,unconditional,NW lag 20,-0.7362596902,,0.4615726726
+roll5,5,2008-2020,raw_gbt,-0.001924262268,unconditional,"EWC nu=81 (fixed-b, t_nu)",-0.6872396547,81,0.4938947654
+roll5,5,2008-2020,raw_gbt,-0.001924262268,"conditional (1, d_{t-h})",NW lag 4,4.617996758,2,0.0993607235
+roll5,5,2008-2020,raw_gbt,-0.001924262268,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.949713017,81,0.1490183974
+roll5,5,2009-2020,msm_seqcal,0.0004141205339,unconditional,NW lag 4,1.151507952,,0.2495233259
+roll5,5,2009-2020,msm_seqcal,0.0004141205339,unconditional,NW lag 20,1.065512859,,0.2866439095
+roll5,5,2009-2020,msm_seqcal,0.0004141205339,unconditional,"EWC nu=78 (fixed-b, t_nu)",1.019437523,78,0.3111469048
+roll5,5,2009-2020,msm_seqcal,0.0004141205339,"conditional (1, d_{t-h})",NW lag 4,1.059273617,2,0.5888187847
+roll5,5,2009-2020,msm_seqcal,0.0004141205339,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.4995179288,77,0.6088013311
+roll5,5,2009-2020,amc_seqcal,-0.0001650162513,unconditional,NW lag 4,-0.9733662752,,0.330371294
+roll5,5,2009-2020,amc_seqcal,-0.0001650162513,unconditional,NW lag 20,-0.9397860245,,0.3473273289
+roll5,5,2009-2020,amc_seqcal,-0.0001650162513,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.9508485002,78,0.3446183619
+roll5,5,2009-2020,amc_seqcal,-0.0001650162513,"conditional (1, d_{t-h})",NW lag 4,1.612771341,2,0.4464688391
+roll5,5,2009-2020,amc_seqcal,-0.0001650162513,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.7647729793,77,0.4689876045
+roll5,5,2009-2020,pc2_logistic,-0.001921869407,unconditional,NW lag 4,-1.882527946,,0.05976436923
+roll5,5,2009-2020,pc2_logistic,-0.001921869407,unconditional,NW lag 20,-1.748947362,,0.08030011871
+roll5,5,2009-2020,pc2_logistic,-0.001921869407,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.795109653,78,0.07650981253
+roll5,5,2009-2020,pc2_logistic,-0.001921869407,"conditional (1, d_{t-h})",NW lag 4,3.628891285,2,0.1629282038
+roll5,5,2009-2020,pc2_logistic,-0.001921869407,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.596451028,77,0.2093334817
+roll5,5,2009-2020,pc2_gbt,-0.001102107171,unconditional,NW lag 4,-1.075312927,,0.2822346507
+roll5,5,2009-2020,pc2_gbt,-0.001102107171,unconditional,NW lag 20,-0.9329780675,,0.3508312926
+roll5,5,2009-2020,pc2_gbt,-0.001102107171,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.9638588036,78,0.3380955058
+roll5,5,2009-2020,pc2_gbt,-0.001102107171,"conditional (1, d_{t-h})",NW lag 4,2.319848931,2,0.3135098609
+roll5,5,2009-2020,pc2_gbt,-0.001102107171,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.266386394,77,0.2877273252
+roll5,5,2009-2020,raw_logistic,-0.002546138324,unconditional,NW lag 4,-2.496577399,,0.01253982995
+roll5,5,2009-2020,raw_logistic,-0.002546138324,unconditional,NW lag 20,-2.291567132,,0.02193063392
+roll5,5,2009-2020,raw_logistic,-0.002546138324,unconditional,"EWC nu=78 (fixed-b, t_nu)",-2.380968214,78,0.01970654821
+roll5,5,2009-2020,raw_logistic,-0.002546138324,"conditional (1, d_{t-h})",NW lag 4,6.464415171,2,0.03947026855
+roll5,5,2009-2020,raw_logistic,-0.002546138324,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",2.641042507,77,0.07782385876
+roll5,5,2009-2020,raw_gbt,-0.003277836316,unconditional,NW lag 4,-2.004692103,,0.04499597327
+roll5,5,2009-2020,raw_gbt,-0.003277836316,unconditional,NW lag 20,-1.639575438,,0.1010934736
+roll5,5,2009-2020,raw_gbt,-0.003277836316,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.572195756,78,0.119953017
+roll5,5,2009-2020,raw_gbt,-0.003277836316,"conditional (1, d_{t-h})",NW lag 4,4.268811792,2,0.1183148609
+roll5,5,2009-2020,raw_gbt,-0.003277836316,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.320978588,77,0.2729308328
+roll5,20,2008-2026,msm_seqcal,-0.001795404659,unconditional,NW lag 19,-1.358437397,,0.1743249347
+roll5,20,2008-2026,msm_seqcal,-0.001795404659,unconditional,NW lag 20,-1.34531602,,0.1785232024
+roll5,20,2008-2026,msm_seqcal,-0.001795404659,unconditional,"EWC nu=108 (fixed-b, t_nu)",-1.144747967,108,0.2548441842
+roll5,20,2008-2026,msm_seqcal,-0.001795404659,"conditional (1, d_{t-h})",NW lag 19,3.394076557,2,0.1832253838
+roll5,20,2008-2026,msm_seqcal,-0.001795404659,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.033485051,108,0.3592884941
+roll5,20,2008-2026,amc_seqcal,-0.001921071232,unconditional,NW lag 19,-2.414083555,,0.01577484438
+roll5,20,2008-2026,amc_seqcal,-0.001921071232,unconditional,NW lag 20,-2.390658329,,0.01681819592
+roll5,20,2008-2026,amc_seqcal,-0.001921071232,unconditional,"EWC nu=108 (fixed-b, t_nu)",-2.038505077,108,0.04394232458
+roll5,20,2008-2026,amc_seqcal,-0.001921071232,"conditional (1, d_{t-h})",NW lag 19,7.028742782,2,0.02976650857
+roll5,20,2008-2026,amc_seqcal,-0.001921071232,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",2.149660632,108,0.1215297224
+roll5,20,2008-2026,pc2_logistic,-0.001588869827,unconditional,NW lag 19,-0.4781980383,,0.6325092587
+roll5,20,2008-2026,pc2_logistic,-0.001588869827,unconditional,NW lag 20,-0.4727567035,,0.6363867668
+roll5,20,2008-2026,pc2_logistic,-0.001588869827,unconditional,"EWC nu=108 (fixed-b, t_nu)",-0.3955101446,108,0.6932466042
+roll5,20,2008-2026,pc2_logistic,-0.001588869827,"conditional (1, d_{t-h})",NW lag 19,2.847536701,2,0.2408048678
+roll5,20,2008-2026,pc2_logistic,-0.001588869827,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.505286384,108,0.2266158719
+roll5,20,2008-2026,pc2_gbt,0.005020443377,unconditional,NW lag 19,1.309683538,,0.1903029149
+roll5,20,2008-2026,pc2_gbt,0.005020443377,unconditional,NW lag 20,1.298758082,,0.1940269643
+roll5,20,2008-2026,pc2_gbt,0.005020443377,unconditional,"EWC nu=108 (fixed-b, t_nu)",1.076886324,108,0.2839306698
+roll5,20,2008-2026,pc2_gbt,0.005020443377,"conditional (1, d_{t-h})",NW lag 19,2.778081724,2,0.2493143168
+roll5,20,2008-2026,pc2_gbt,0.005020443377,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",0.9556268645,108,0.3878283773
+roll5,20,2008-2026,raw_logistic,-0.01093757396,unconditional,NW lag 19,-2.576923384,,0.009968404315
+roll5,20,2008-2026,raw_logistic,-0.01093757396,unconditional,NW lag 20,-2.551754128,,0.01071821272
+roll5,20,2008-2026,raw_logistic,-0.01093757396,unconditional,"EWC nu=108 (fixed-b, t_nu)",-2.174251598,108,0.0318688874
+roll5,20,2008-2026,raw_logistic,-0.01093757396,"conditional (1, d_{t-h})",NW lag 19,7.798808589,2,0.02025397326
+roll5,20,2008-2026,raw_logistic,-0.01093757396,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",3.090979831,108,0.04953947689
+roll5,20,2008-2026,raw_gbt,-0.007577008363,unconditional,NW lag 19,-1.488873049,,0.1365208018
+roll5,20,2008-2026,raw_gbt,-0.007577008363,unconditional,NW lag 20,-1.474551112,,0.1403332666
+roll5,20,2008-2026,raw_gbt,-0.007577008363,unconditional,"EWC nu=108 (fixed-b, t_nu)",-1.258439316,108,0.2109466071
+roll5,20,2008-2026,raw_gbt,-0.007577008363,"conditional (1, d_{t-h})",NW lag 19,3.612059619,2,0.1643051664
+roll5,20,2008-2026,raw_gbt,-0.007577008363,"conditional (1, d_{t-h})","EWC nu=108 (fixed-b, F)",1.280037367,108,0.2822493793
+roll5,20,2009-2026,msm_seqcal,-0.001873611198,unconditional,NW lag 19,-1.359145197,,0.1741005831
+roll5,20,2009-2026,msm_seqcal,-0.001873611198,unconditional,NW lag 20,-1.346047285,,0.1782872676
+roll5,20,2009-2026,msm_seqcal,-0.001873611198,unconditional,"EWC nu=105 (fixed-b, t_nu)",-1.122283377,105,0.2643017762
+roll5,20,2009-2026,msm_seqcal,-0.001873611198,"conditional (1, d_{t-h})",NW lag 19,3.653143328,2,0.1609644631
+roll5,20,2009-2026,msm_seqcal,-0.001873611198,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.143870224,105,0.322558556
+roll5,20,2009-2026,amc_seqcal,-0.002004751716,unconditional,NW lag 19,-2.416771972,,0.01565882326
+roll5,20,2009-2026,amc_seqcal,-0.002004751716,unconditional,NW lag 20,-2.393423491,,0.0166919622
+roll5,20,2009-2026,amc_seqcal,-0.002004751716,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.024226958,105,0.04548590643
+roll5,20,2009-2026,amc_seqcal,-0.002004751716,"conditional (1, d_{t-h})",NW lag 19,7.684332563,2,0.02144709055
+roll5,20,2009-2026,amc_seqcal,-0.002004751716,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",2.427487228,105,0.09324446726
+roll5,20,2009-2026,pc2_logistic,-0.005996219839,unconditional,NW lag 19,-2.428796802,,0.01514902003
+roll5,20,2009-2026,pc2_logistic,-0.005996219839,unconditional,NW lag 20,-2.404401399,,0.01619897551
+roll5,20,2009-2026,pc2_logistic,-0.005996219839,unconditional,"EWC nu=105 (fixed-b, t_nu)",-2.051474891,105,0.04270966869
+roll5,20,2009-2026,pc2_logistic,-0.005996219839,"conditional (1, d_{t-h})",NW lag 19,5.29024543,2,0.07099664086
+roll5,20,2009-2026,pc2_logistic,-0.005996219839,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.84850069,105,0.162609477
+roll5,20,2009-2026,pc2_gbt,0.0009307750117,unconditional,NW lag 19,0.347739127,,0.7280361092
+roll5,20,2009-2026,pc2_gbt,0.0009307750117,unconditional,NW lag 20,0.3449109163,,0.7301613436
+roll5,20,2009-2026,pc2_gbt,0.0009307750117,unconditional,"EWC nu=105 (fixed-b, t_nu)",0.2957533522,105,0.7680025465
+roll5,20,2009-2026,pc2_gbt,0.0009307750117,"conditional (1, d_{t-h})",NW lag 19,3.391263875,2,0.1834832425
+roll5,20,2009-2026,pc2_gbt,0.0009307750117,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.728504321,105,0.1826109512
+roll5,20,2009-2026,raw_logistic,-0.0144931353,unconditional,NW lag 19,-3.668449421,,0.0002440259563
+roll5,20,2009-2026,raw_logistic,-0.0144931353,unconditional,NW lag 20,-3.632696457,,0.0002804748867
+roll5,20,2009-2026,raw_logistic,-0.0144931353,unconditional,"EWC nu=105 (fixed-b, t_nu)",-3.107606083,105,0.002426735497
+roll5,20,2009-2026,raw_logistic,-0.0144931353,"conditional (1, d_{t-h})",NW lag 19,15.64981371,2,0.0003996558113
+roll5,20,2009-2026,raw_logistic,-0.0144931353,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",5.767420731,105,0.004213655845
+roll5,20,2009-2026,raw_gbt,-0.01102457691,unconditional,NW lag 19,-2.286304574,,0.02223644648
+roll5,20,2009-2026,raw_gbt,-0.01102457691,unconditional,NW lag 20,-2.261607629,,0.02372165623
+roll5,20,2009-2026,raw_gbt,-0.01102457691,unconditional,"EWC nu=105 (fixed-b, t_nu)",-1.937865111,105,0.05532546642
+roll5,20,2009-2026,raw_gbt,-0.01102457691,"conditional (1, d_{t-h})",NW lag 19,5.561166039,2,0.06200234826
+roll5,20,2009-2026,raw_gbt,-0.01102457691,"conditional (1, d_{t-h})","EWC nu=105 (fixed-b, F)",1.86386274,105,0.1602153569
+roll5,20,2008-2020,msm_seqcal,-0.001541651123,unconditional,NW lag 19,-0.9484365755,,0.3429072469
+roll5,20,2008-2020,msm_seqcal,-0.001541651123,unconditional,NW lag 20,-0.9434950991,,0.3454277209
+roll5,20,2008-2020,msm_seqcal,-0.001541651123,unconditional,"EWC nu=81 (fixed-b, t_nu)",-0.8731764078,81,0.3851481981
+roll5,20,2008-2020,msm_seqcal,-0.001541651123,"conditional (1, d_{t-h})",NW lag 19,1.413812478,2,0.4931675825
+roll5,20,2008-2020,msm_seqcal,-0.001541651123,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.6477025241,81,0.5259682273
+roll5,20,2008-2020,amc_seqcal,-0.001221395793,unconditional,NW lag 19,-1.356975584,,0.1747889687
+roll5,20,2008-2020,amc_seqcal,-0.001221395793,unconditional,NW lag 20,-1.347356499,,0.1778654436
+roll5,20,2008-2020,amc_seqcal,-0.001221395793,unconditional,"EWC nu=81 (fixed-b, t_nu)",-1.174545048,81,0.2436182914
+roll5,20,2008-2020,amc_seqcal,-0.001221395793,"conditional (1, d_{t-h})",NW lag 19,2.387714782,2,0.3030500242
+roll5,20,2008-2020,amc_seqcal,-0.001221395793,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.7625108459,81,0.4698535996
+roll5,20,2008-2020,pc2_logistic,0.004064795539,unconditional,NW lag 19,0.9507717018,,0.3417202807
+roll5,20,2008-2020,pc2_logistic,0.004064795539,unconditional,NW lag 20,0.9416411897,,0.346376374
+roll5,20,2008-2020,pc2_logistic,0.004064795539,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.8159410534,81,0.4169268663
+roll5,20,2008-2020,pc2_logistic,0.004064795539,"conditional (1, d_{t-h})",NW lag 19,1.230333412,2,0.5405507747
+roll5,20,2008-2020,pc2_logistic,0.004064795539,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.4530551299,81,0.6373039341
+roll5,20,2008-2020,pc2_gbt,0.004283874854,unconditional,NW lag 19,0.829844111,,0.4066269273
+roll5,20,2008-2020,pc2_gbt,0.004283874854,unconditional,NW lag 20,0.8234942035,,0.4102270121
+roll5,20,2008-2020,pc2_gbt,0.004283874854,unconditional,"EWC nu=81 (fixed-b, t_nu)",0.6905666008,81,0.4918120875
+roll5,20,2008-2020,pc2_gbt,0.004283874854,"conditional (1, d_{t-h})",NW lag 19,1.021520688,2,0.6000391691
+roll5,20,2008-2020,pc2_gbt,0.004283874854,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.3579655651,81,0.7002111716
+roll5,20,2008-2020,raw_logistic,-0.006876958924,unconditional,NW lag 19,-1.324686339,,0.1852752059
+roll5,20,2008-2020,raw_logistic,-0.006876958924,unconditional,NW lag 20,-1.311846118,,0.1895720609
+roll5,20,2008-2020,raw_logistic,-0.006876958924,unconditional,"EWC nu=81 (fixed-b, t_nu)",-1.123449178,81,0.2645654784
+roll5,20,2008-2020,raw_logistic,-0.006876958924,"conditional (1, d_{t-h})",NW lag 19,2.864477817,2,0.2387737308
+roll5,20,2008-2020,raw_logistic,-0.006876958924,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",1.216542303,81,0.3016736864
+roll5,20,2008-2020,raw_gbt,-0.006872682975,unconditional,NW lag 19,-1.101320264,,0.2707572947
+roll5,20,2008-2020,raw_gbt,-0.006872682975,unconditional,NW lag 20,-1.089704339,,0.2758434042
+roll5,20,2008-2020,raw_gbt,-0.006872682975,unconditional,"EWC nu=81 (fixed-b, t_nu)",-0.9029018592,81,0.3692552605
+roll5,20,2008-2020,raw_gbt,-0.006872682975,"conditional (1, d_{t-h})",NW lag 19,2.86196111,2,0.2390743817
+roll5,20,2008-2020,raw_gbt,-0.006872682975,"conditional (1, d_{t-h})","EWC nu=81 (fixed-b, F)",0.9846244225,81,0.3780604684
+roll5,20,2009-2020,msm_seqcal,-0.001647328821,unconditional,NW lag 19,-0.9490842417,,0.3425777684
+roll5,20,2009-2020,msm_seqcal,-0.001647328821,unconditional,NW lag 20,-0.9441737618,,0.345080861
+roll5,20,2009-2020,msm_seqcal,-0.001647328821,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.861372248,78,0.3916733345
+roll5,20,2009-2020,msm_seqcal,-0.001647328821,"conditional (1, d_{t-h})",NW lag 19,1.801250048,2,0.4063156233
+roll5,20,2009-2020,msm_seqcal,-0.001647328821,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.8308026979,77,0.4396172027
+roll5,20,2009-2020,amc_seqcal,-0.001305120505,unconditional,NW lag 19,-1.358456806,,0.1743187796
+roll5,20,2009-2020,amc_seqcal,-0.001305120505,unconditional,NW lag 20,-1.348895273,,0.1773706067
+roll5,20,2009-2020,amc_seqcal,-0.001305120505,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.174132052,78,0.2439145765
+roll5,20,2009-2020,amc_seqcal,-0.001305120505,"conditional (1, d_{t-h})",NW lag 19,2.907913737,2,0.2336439582
+roll5,20,2009-2020,amc_seqcal,-0.001305120505,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.9755467812,77,0.3816563062
+roll5,20,2009-2020,pc2_logistic,-0.002483414937,unconditional,NW lag 19,-0.9640638296,,0.3350139255
+roll5,20,2009-2020,pc2_logistic,-0.002483414937,unconditional,NW lag 20,-0.9606590758,,0.3367236145
+roll5,20,2009-2020,pc2_logistic,-0.002483414937,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.8581966472,78,0.3934133776
+roll5,20,2009-2020,pc2_logistic,-0.002483414937,"conditional (1, d_{t-h})",NW lag 19,0.8219671808,2,0.662997811
+roll5,20,2009-2020,pc2_logistic,-0.002483414937,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.3356952104,77,0.7158954761
+roll5,20,2009-2020,pc2_gbt,-0.002202446482,unconditional,NW lag 19,-0.762538635,,0.4457385935
+roll5,20,2009-2020,pc2_gbt,-0.002202446482,unconditional,NW lag 20,-0.7587530131,,0.4480003179
+roll5,20,2009-2020,pc2_gbt,-0.002202446482,unconditional,"EWC nu=78 (fixed-b, t_nu)",-0.6919726515,78,0.4910092638
+roll5,20,2009-2020,pc2_gbt,-0.002202446482,"conditional (1, d_{t-h})",NW lag 19,1.245311252,2,0.5365177535
+roll5,20,2009-2020,pc2_gbt,-0.002202446482,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",0.4992548407,77,0.6089594424
+roll5,20,2009-2020,raw_logistic,-0.01219392733,unconditional,NW lag 19,-2.655106312,,0.007928341755
+roll5,20,2009-2020,raw_logistic,-0.01219392733,unconditional,NW lag 20,-2.62912115,,0.00856058573
+roll5,20,2009-2020,raw_logistic,-0.01219392733,unconditional,"EWC nu=78 (fixed-b, t_nu)",-2.255467761,78,0.02690652
+roll5,20,2009-2020,raw_logistic,-0.01219392733,"conditional (1, d_{t-h})",NW lag 19,9.278114838,2,0.009666805079
+roll5,20,2009-2020,raw_logistic,-0.01219392733,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",3.372689619,77,0.0395051739
+roll5,20,2009-2020,raw_gbt,-0.01224977348,unconditional,NW lag 19,-2.159847114,,0.03078450702
+roll5,20,2009-2020,raw_gbt,-0.01224977348,unconditional,NW lag 20,-2.131795178,,0.0330236882
+roll5,20,2009-2020,raw_gbt,-0.01224977348,unconditional,"EWC nu=78 (fixed-b, t_nu)",-1.786149797,78,0.0779612001
+roll5,20,2009-2020,raw_gbt,-0.01224977348,"conditional (1, d_{t-h})",NW lag 19,5.400551339,2,0.06718698877
+roll5,20,2009-2020,raw_gbt,-0.01224977348,"conditional (1, d_{t-h})","EWC nu=77 (fixed-b, F)",1.762470012,77,0.1785620641

@@ -1,0 +1,27 @@
+# Paper 2 (IJF).  Needs the latest Paper 1 package at ../../paper1_pre (read-only, SHA-checked by P2_D0).
+# make -f Makefile_P2 all   (~25 min on one core);  make -f Makefile_P2 check  (SHA-256 manifest)
+PY ?= python3
+S = scripts
+.PHONY: all data forecasts evaluation extension figures check quick
+data:
+	$(PY) $(S)/P2_D0_data_gate.py && $(PY) $(S)/P2_D1_features.py
+forecasts: data
+	$(PY) $(S)/P2_F1_forecasts.py --check && $(PY) $(S)/P2_F1_forecasts.py && $(PY) $(S)/P2_F1_forecasts.py --window 5
+evaluation:
+	for t in exp roll5; do $(PY) $(S)/P2_F2_decomposition.py --tag $$t && $(PY) $(S)/P2_F3_drift.py --tag $$t && $(PY) $(S)/P2_F6_anatomy.py --tag $$t || exit 1; done
+	$(PY) $(S)/P2_F4_tests.py && $(PY) $(S)/P2_F5_cases.py && $(PY) $(S)/P2_B2_baselines.py && $(PY) $(S)/P2_S1_size_simulation.py
+extension:
+	$(PY) $(S)/P2_X1_extension.py && $(PY) $(S)/P2_X1_extension.py --evaluate
+figures:
+	$(PY) $(S)/P2_figures.py
+all: forecasts evaluation extension sensitivity manuscript
+check:
+	cd .. && sha256sum -c SHA256SUMS_P2.txt
+sensitivity:
+	$(PY) $(S)/P2_F1_forecasts.py --labels-defined && $(PY) $(S)/P2_F2_decomposition.py --tag exp_ld && $(PY) $(S)/P2_F7_label_rule.py
+manuscript:
+	$(PY) $(S)/P2_numbers.py && $(PY) $(S)/P2_tables.py && $(PY) $(S)/P2_figures.py && cp figures_p2/*.pdf ../manuscript_p2/figures/
+	cd ../manuscript_p2 && latexmk -pdf -interaction=nonstopmode main.tex
+quick:
+	$(PY) $(S)/P2_numbers.py && $(PY) $(S)/P2_tables.py && $(PY) $(S)/P2_figures.py && cp figures_p2/*.pdf ../manuscript_p2/figures/
+	cd ../manuscript_p2 && latexmk -pdf -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode cover_letter.tex

@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrr}\toprule
+ & & \multicolumn{2}{c}{expanding windows} & \multicolumn{2}{c}{rolling five-year windows}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6} test & units & $h=5$ & $h=20$ & $h=5$ & $h=20$\\\midrule
+chi-square (invalid) & days & $7\times10^{-4}$ (273) & $4\times10^{-8}$ (276) & $3\times10^{-4}$ (362) & $2\times10^{-8}$ (366)\\
+cluster permutation & episodes, gap $h$ & 0.91 (28) & 0.66 (15) & 0.87 (39) & 0.85 (20)\\
+cluster permutation & episodes, gap $2h$ & 0.89 (24) & 0.46 (10) & 0.79 (29) & 0.62 (15)\\
+cluster permutation & 20-day blocks & 0.63 (40) & 0.45 (40) & 0.56 (49) & 0.53 (49)\\
+quasi-binomial F & episodes, gap $h$ & 0.90 (28) & 0.69 (15) & 0.83 (39) & 0.76 (20)\\
+quasi-binomial F & episodes, gap $2h$ & 0.90 (24) & 0.45 (10) & 0.84 (29) & 0.36 (15)\\
+quasi-binomial F & 20-day blocks & 0.69 (40) & 0.36 (40) & 0.62 (49) & 0.38 (49)\\
+\bottomrule\end{tabular}

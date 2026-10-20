@@ -1,0 +1,321 @@
+run,horizon,sample,quantity,method,value
+exp,5,2008-2026,BSS,ou_raw,-1.320759219
+exp,5,2008-2026,MCB,ou_raw,0.04974660929
+exp,5,2008-2026,DSC,ou_raw,0.005798374558
+exp,5,2008-2026,BSS,ou_seqcal,0.1189053068
+exp,5,2008-2026,MCB,ou_seqcal,0.0005967455623
+exp,5,2008-2026,DSC,ou_seqcal,0.004050480702
+exp,5,2008-2026,BSS,msm_seqcal,0.1150480658
+exp,5,2008-2026,MCB,msm_seqcal,0.000580091109
+exp,5,2008-2026,DSC,msm_seqcal,0.003906823867
+exp,5,2008-2026,BSS,amc_seqcal,0.1191415359
+exp,5,2008-2026,MCB,amc_seqcal,0.0006777539459
+exp,5,2008-2026,DSC,amc_seqcal,0.004139267096
+exp,5,2008-2026,BSS,pc2_logistic,0.1020217573
+exp,5,2008-2026,MCB,pc2_logistic,0.002688798396
+exp,5,2008-2026,DSC,pc2_logistic,0.005586630761
+exp,5,2008-2026,BSS,pc2_gbt,0.1953482387
+exp,5,2008-2026,MCB,pc2_gbt,0.0009350721078
+exp,5,2008-2026,DSC,pc2_gbt,0.006905744692
+exp,5,2008-2026,BSS,raw_logistic,0.09691136466
+exp,5,2008-2026,MCB,raw_logistic,0.0008969027428
+exp,5,2008-2026,DSC,raw_logistic,0.003626471826
+exp,5,2008-2026,BSS,raw_gbt,0.115873401
+exp,5,2008-2026,MCB,raw_gbt,0.00219931663
+exp,5,2008-2026,DSC,raw_gbt,0.005553224134
+exp,5,2008-2026,dDSC rawS-m q05,ou_seqcal,-0.0008853157864
+exp,5,2008-2026,dDSC rawS-m q95,ou_seqcal,0.003975528094
+exp,5,2008-2026,dDSC rawS-m q05,pc2_logistic,-0.001843736018
+exp,5,2008-2026,dDSC rawS-m q95,pc2_logistic,0.001149291364
+exp,5,2008-2026,dBSS vs seq-cal,msm_seqcal,-0.00385724104
+exp,5,2008-2026,dBSS vs seq-cal,amc_seqcal,0.0002362291146
+exp,5,2008-2026,dBSS vs seq-cal,pc2_logistic,-0.01688354952
+exp,5,2008-2026,dBSS vs seq-cal,pc2_gbt,0.07644293186
+exp,5,2008-2026,dBSS vs seq-cal,raw_logistic,-0.02199394215
+exp,5,2008-2026,dBSS vs seq-cal,raw_gbt,-0.003031905776
+exp,5,2008-2026,p EWC Holm,msm_seqcal,1
+exp,5,2008-2026,p EWC Holm,amc_seqcal,1
+exp,5,2008-2026,p EWC Holm,pc2_logistic,1
+exp,5,2008-2026,p EWC Holm,pc2_gbt,0.7682985098
+exp,5,2008-2026,p EWC Holm,raw_logistic,1
+exp,5,2008-2026,p EWC Holm,raw_gbt,1
+exp,5,2009-2026,BSS,ou_raw,-1.114974248
+exp,5,2009-2026,MCB,ou_raw,0.03477548934
+exp,5,2009-2026,DSC,ou_raw,0.004655961775
+exp,5,2009-2026,BSS,ou_seqcal,0.1522130003
+exp,5,2009-2026,MCB,ou_seqcal,0.0005794217321
+exp,5,2009-2026,DSC,ou_seqcal,0.004467759564
+exp,5,2009-2026,BSS,msm_seqcal,0.1472752709
+exp,5,2009-2026,MCB,msm_seqcal,0.0005775488771
+exp,5,2009-2026,DSC,msm_seqcal,0.004333371457
+exp,5,2009-2026,BSS,amc_seqcal,0.1525154018
+exp,5,2009-2026,MCB,amc_seqcal,0.0006709885705
+exp,5,2009-2026,DSC,amc_seqcal,0.004567442037
+exp,5,2009-2026,BSS,pc2_logistic,0.07329409703
+exp,5,2009-2026,MCB,pc2_logistic,0.002275883329
+exp,5,2009-2026,DSC,pc2_logistic,0.004046252057
+exp,5,2009-2026,BSS,pc2_gbt,0.1809767209
+exp,5,2009-2026,MCB,pc2_gbt,0.0006658671087
+exp,5,2009-2026,DSC,pc2_gbt,0.005326145111
+exp,5,2009-2026,BSS,raw_logistic,0.06259999819
+exp,5,2009-2026,MCB,raw_logistic,0.0008937242501
+exp,5,2009-2026,DSC,raw_logistic,0.002377092399
+exp,5,2009-2026,BSS,raw_gbt,0.1125525933
+exp,5,2009-2026,MCB,raw_gbt,0.002228195848
+exp,5,2009-2026,DSC,raw_gbt,0.005052156031
+exp,5,2009-2026,dDSC rawS-m q05,ou_seqcal,-0.0003154540559
+exp,5,2009-2026,dDSC rawS-m q95,ou_seqcal,0.0005318783239
+exp,5,2009-2026,dDSC rawS-m q05,pc2_logistic,-0.0006879920187
+exp,5,2009-2026,dDSC rawS-m q95,pc2_logistic,0.001580826606
+exp,5,2009-2026,dBSS vs seq-cal,msm_seqcal,-0.00493772942
+exp,5,2009-2026,dBSS vs seq-cal,amc_seqcal,0.0003024014929
+exp,5,2009-2026,dBSS vs seq-cal,pc2_logistic,-0.07891890327
+exp,5,2009-2026,dBSS vs seq-cal,pc2_gbt,0.02876372064
+exp,5,2009-2026,dBSS vs seq-cal,raw_logistic,-0.08961300211
+exp,5,2009-2026,dBSS vs seq-cal,raw_gbt,-0.039660407
+exp,5,2009-2026,p EWC Holm,msm_seqcal,1
+exp,5,2009-2026,p EWC Holm,amc_seqcal,1
+exp,5,2009-2026,p EWC Holm,pc2_logistic,0.3314495328
+exp,5,2009-2026,p EWC Holm,pc2_gbt,1
+exp,5,2009-2026,p EWC Holm,raw_logistic,0.2592991718
+exp,5,2009-2026,p EWC Holm,raw_gbt,1
+exp,20,2008-2026,BSS,ou_raw,-0.3187918388
+exp,20,2008-2026,MCB,ou_raw,0.04374559257
+exp,20,2008-2026,DSC,ou_raw,0.01440223869
+exp,20,2008-2026,BSS,ou_seqcal,0.08472587221
+exp,20,2008-2026,MCB,ou_seqcal,0.002402750368
+exp,20,2008-2026,DSC,ou_seqcal,0.00691774338
+exp,20,2008-2026,BSS,msm_seqcal,0.06395632908
+exp,20,2008-2026,MCB,msm_seqcal,0.003163929666
+exp,20,2008-2026,DSC,msm_seqcal,0.005936192739
+exp,20,2008-2026,BSS,amc_seqcal,0.06638382146
+exp,20,2008-2026,MCB,amc_seqcal,0.003326677103
+exp,20,2008-2026,DSC,amc_seqcal,0.006302626103
+exp,20,2008-2026,BSS,pc2_logistic,0.1272479261
+exp,20,2008-2026,MCB,pc2_logistic,0.002374198062
+exp,20,2008-2026,DSC,pc2_logistic,0.01045712976
+exp,20,2008-2026,BSS,pc2_gbt,0.150613197
+exp,20,2008-2026,MCB,pc2_gbt,0.001718300722
+exp,20,2008-2026,DSC,pc2_gbt,0.01176176457
+exp,20,2008-2026,BSS,raw_logistic,0.09342486199
+exp,20,2008-2026,MCB,raw_logistic,0.001989978538
+exp,20,2008-2026,DSC,raw_logistic,0.007234886015
+exp,20,2008-2026,BSS,raw_gbt,0.1047844051
+exp,20,2008-2026,MCB,raw_gbt,0.005091193789
+exp,20,2008-2026,DSC,raw_gbt,0.01128925733
+exp,20,2008-2026,dDSC rawS-m q05,ou_seqcal,0.001179295813
+exp,20,2008-2026,dDSC rawS-m q95,ou_seqcal,0.01441775303
+exp,20,2008-2026,dDSC rawS-m q05,pc2_logistic,0.0004796006025
+exp,20,2008-2026,dDSC rawS-m q95,pc2_logistic,0.006983404607
+exp,20,2008-2026,dBSS vs seq-cal,msm_seqcal,-0.02076954313
+exp,20,2008-2026,dBSS vs seq-cal,amc_seqcal,-0.01834205075
+exp,20,2008-2026,dBSS vs seq-cal,pc2_logistic,0.0425220539
+exp,20,2008-2026,dBSS vs seq-cal,pc2_gbt,0.06588732479
+exp,20,2008-2026,dBSS vs seq-cal,raw_logistic,0.008698989783
+exp,20,2008-2026,dBSS vs seq-cal,raw_gbt,0.02005853294
+exp,20,2008-2026,p EWC Holm,msm_seqcal,0.1850723212
+exp,20,2008-2026,p EWC Holm,amc_seqcal,0.08382023676
+exp,20,2008-2026,p EWC Holm,pc2_logistic,0.8833443254
+exp,20,2008-2026,p EWC Holm,pc2_gbt,0.5390311171
+exp,20,2008-2026,p EWC Holm,raw_logistic,1
+exp,20,2008-2026,p EWC Holm,raw_gbt,1
+exp,20,2009-2026,BSS,ou_raw,-0.3547784228
+exp,20,2009-2026,MCB,ou_raw,0.03678375819
+exp,20,2009-2026,DSC,ou_raw,0.01026158287
+exp,20,2009-2026,BSS,ou_seqcal,0.104159047
+exp,20,2009-2026,MCB,ou_seqcal,0.002046116657
+exp,20,2009-2026,DSC,ou_seqcal,0.008212279495
+exp,20,2009-2026,BSS,msm_seqcal,0.07862569148
+exp,20,2009-2026,MCB,msm_seqcal,0.002718969096
+exp,20,2009-2026,DSC,msm_seqcal,0.007066489929
+exp,20,2009-2026,BSS,amc_seqcal,0.08160996637
+exp,20,2009-2026,MCB,amc_seqcal,0.00291979791
+exp,20,2009-2026,DSC,amc_seqcal,0.007479877083
+exp,20,2009-2026,BSS,pc2_logistic,0.09565167989
+exp,20,2009-2026,MCB,pc2_logistic,0.001645104248
+exp,20,2009-2026,DSC,pc2_logistic,0.00720532028
+exp,20,2009-2026,BSS,pc2_gbt,0.1250422957
+exp,20,2009-2026,MCB,pc2_gbt,0.00152124701
+exp,20,2009-2026,DSC,pc2_gbt,0.00917484275
+exp,20,2009-2026,BSS,raw_logistic,0.07184468172
+exp,20,2009-2026,MCB,raw_logistic,0.001861825217
+exp,20,2009-2026,DSC,raw_logistic,0.005726360993
+exp,20,2009-2026,BSS,raw_gbt,0.08295353286
+exp,20,2009-2026,MCB,raw_gbt,0.005099057453
+exp,20,2009-2026,DSC,raw_gbt,0.009754833662
+exp,20,2009-2026,dDSC rawS-m q05,ou_seqcal,0.0001792328769
+exp,20,2009-2026,dDSC rawS-m q95,ou_seqcal,0.004387644143
+exp,20,2009-2026,dDSC rawS-m q05,pc2_logistic,0.0003181475472
+exp,20,2009-2026,dDSC rawS-m q95,pc2_logistic,0.005707229378
+exp,20,2009-2026,dBSS vs seq-cal,msm_seqcal,-0.02553335555
+exp,20,2009-2026,dBSS vs seq-cal,amc_seqcal,-0.02254908066
+exp,20,2009-2026,dBSS vs seq-cal,pc2_logistic,-0.008507367145
+exp,20,2009-2026,dBSS vs seq-cal,pc2_gbt,0.02088324862
+exp,20,2009-2026,dBSS vs seq-cal,raw_logistic,-0.03231436532
+exp,20,2009-2026,dBSS vs seq-cal,raw_gbt,-0.02120551418
+exp,20,2009-2026,p EWC Holm,msm_seqcal,0.2090754825
+exp,20,2009-2026,p EWC Holm,amc_seqcal,0.08940001074
+exp,20,2009-2026,p EWC Holm,pc2_logistic,1
+exp,20,2009-2026,p EWC Holm,pc2_gbt,1
+exp,20,2009-2026,p EWC Holm,raw_logistic,1
+exp,20,2009-2026,p EWC Holm,raw_gbt,1
+exp_ld,5,2008-2026,BSS,ou_raw,-1.000931434
+exp_ld,5,2008-2026,MCB,ou_raw,0.03944353275
+exp_ld,5,2008-2026,DSC,ou_raw,0.005781459157
+exp_ld,5,2008-2026,BSS,ou_seqcal,0.118258906
+exp_ld,5,2008-2026,MCB,ou_seqcal,0.0007571800808
+exp_ld,5,2008-2026,DSC,ou_seqcal,0.004081935953
+exp_ld,5,2008-2026,BSS,msm_seqcal,0.1184139782
+exp_ld,5,2008-2026,MCB,msm_seqcal,0.0007248408469
+exp_ld,5,2008-2026,DSC,msm_seqcal,0.004054721519
+exp_ld,5,2008-2026,BSS,amc_seqcal,0.118834333
+exp_ld,5,2008-2026,MCB,amc_seqcal,0.000805551553
+exp_ld,5,2008-2026,DSC,amc_seqcal,0.004149324046
+exp_ld,5,2008-2026,BSS,pc2_logistic,0.1132656128
+exp_ld,5,2008-2026,MCB,pc2_logistic,0.002188581725
+exp_ld,5,2008-2026,DSC,pc2_logistic,0.005348320015
+exp_ld,5,2008-2026,BSS,pc2_gbt,0.2102522746
+exp_ld,5,2008-2026,MCB,pc2_gbt,0.0008405085372
+exp_ld,5,2008-2026,DSC,pc2_gbt,0.007205447043
+exp_ld,5,2008-2026,BSS,raw_logistic,0.1053645473
+exp_ld,5,2008-2026,MCB,raw_logistic,0.0007537673291
+exp_ld,5,2008-2026,DSC,raw_logistic,0.003652392427
+exp_ld,5,2008-2026,BSS,raw_gbt,0.1172406333
+exp_ld,5,2008-2026,MCB,raw_gbt,0.002282625151
+exp_ld,5,2008-2026,DSC,raw_gbt,0.005573729301
+exp_ld,5,2008-2026,dDSC rawS-m q05,ou_seqcal,-0.0007461246645
+exp_ld,5,2008-2026,dDSC rawS-m q95,ou_seqcal,0.003802040224
+exp_ld,5,2008-2026,dDSC rawS-m q05,pc2_logistic,-0.001585339693
+exp_ld,5,2008-2026,dDSC rawS-m q95,pc2_logistic,0.001548196153
+exp_ld,5,2008-2026,dBSS vs seq-cal,msm_seqcal,0.0001550721489
+exp_ld,5,2008-2026,dBSS vs seq-cal,amc_seqcal,0.0005754269657
+exp_ld,5,2008-2026,dBSS vs seq-cal,pc2_logistic,-0.004993293189
+exp_ld,5,2008-2026,dBSS vs seq-cal,pc2_gbt,0.0919933686
+exp_ld,5,2008-2026,dBSS vs seq-cal,raw_logistic,-0.01289435868
+exp_ld,5,2008-2026,dBSS vs seq-cal,raw_gbt,-0.001018272779
+exp_ld,5,2008-2026,p EWC Holm,msm_seqcal,1
+exp_ld,5,2008-2026,p EWC Holm,amc_seqcal,1
+exp_ld,5,2008-2026,p EWC Holm,pc2_logistic,1
+exp_ld,5,2008-2026,p EWC Holm,pc2_gbt,0.4007850619
+exp_ld,5,2008-2026,p EWC Holm,raw_logistic,1
+exp_ld,5,2008-2026,p EWC Holm,raw_gbt,1
+exp_ld,5,2009-2026,BSS,ou_raw,-0.8135457097
+exp_ld,5,2009-2026,MCB,ou_raw,0.02709453336
+exp_ld,5,2009-2026,DSC,ou_raw,0.004670159761
+exp_ld,5,2009-2026,BSS,ou_seqcal,0.1507258009
+exp_ld,5,2009-2026,MCB,ou_seqcal,0.0005947762864
+exp_ld,5,2009-2026,DSC,ou_seqcal,0.004258520438
+exp_ld,5,2009-2026,BSS,msm_seqcal,0.1509234466
+exp_ld,5,2009-2026,MCB,msm_seqcal,0.0007325563836
+exp_ld,5,2009-2026,DSC,msm_seqcal,0.004401647791
+exp_ld,5,2009-2026,BSS,amc_seqcal,0.151459206
+exp_ld,5,2009-2026,MCB,amc_seqcal,0.0006455957648
+exp_ld,5,2009-2026,DSC,amc_seqcal,0.004329182004
+exp_ld,5,2009-2026,BSS,pc2_logistic,0.08601050861
+exp_ld,5,2009-2026,MCB,pc2_logistic,0.002305142617
+exp_ld,5,2009-2026,DSC,pc2_logistic,0.004218031179
+exp_ld,5,2009-2026,BSS,pc2_gbt,0.2127931785
+exp_ld,5,2009-2026,MCB,pc2_gbt,0.0008333116341
+exp_ld,5,2009-2026,DSC,pc2_gbt,0.006176272727
+exp_ld,5,2009-2026,BSS,raw_logistic,0.0750470687
+exp_ld,5,2009-2026,MCB,raw_logistic,0.0006997317993
+exp_ld,5,2009-2026,DSC,raw_logistic,0.002316007314
+exp_ld,5,2009-2026,BSS,raw_gbt,0.1414507803
+exp_ld,5,2009-2026,MCB,raw_gbt,0.00167912606
+exp_ld,5,2009-2026,DSC,raw_gbt,0.005091936917
+exp_ld,5,2009-2026,dDSC rawS-m q05,ou_seqcal,-0.0002572862056
+exp_ld,5,2009-2026,dDSC rawS-m q95,ou_seqcal,0.0009629259838
+exp_ld,5,2009-2026,dDSC rawS-m q05,pc2_logistic,-0.0009268058036
+exp_ld,5,2009-2026,dDSC rawS-m q95,pc2_logistic,0.001711734328
+exp_ld,5,2009-2026,dBSS vs seq-cal,msm_seqcal,0.000197645781
+exp_ld,5,2009-2026,dBSS vs seq-cal,amc_seqcal,0.000733405146
+exp_ld,5,2009-2026,dBSS vs seq-cal,pc2_logistic,-0.06471529226
+exp_ld,5,2009-2026,dBSS vs seq-cal,pc2_gbt,0.06206737765
+exp_ld,5,2009-2026,dBSS vs seq-cal,raw_logistic,-0.07567873217
+exp_ld,5,2009-2026,dBSS vs seq-cal,raw_gbt,-0.009275020534
+exp_ld,5,2009-2026,p EWC Holm,msm_seqcal,1
+exp_ld,5,2009-2026,p EWC Holm,amc_seqcal,1
+exp_ld,5,2009-2026,p EWC Holm,pc2_logistic,0.4328677207
+exp_ld,5,2009-2026,p EWC Holm,pc2_gbt,0.5784215931
+exp_ld,5,2009-2026,p EWC Holm,raw_logistic,0.1976390135
+exp_ld,5,2009-2026,p EWC Holm,raw_gbt,1
+exp_ld,20,2008-2026,BSS,ou_raw,-0.1852355972
+exp_ld,20,2008-2026,MCB,ou_raw,0.03346168067
+exp_ld,20,2008-2026,DSC,ou_raw,0.01425433455
+exp_ld,20,2008-2026,BSS,ou_seqcal,0.08668298049
+exp_ld,20,2008-2026,MCB,ou_seqcal,0.003692885358
+exp_ld,20,2008-2026,DSC,ou_seqcal,0.007547249906
+exp_ld,20,2008-2026,BSS,msm_seqcal,0.07050538049
+exp_ld,20,2008-2026,MCB,msm_seqcal,0.004121581083
+exp_ld,20,2008-2026,DSC,msm_seqcal,0.006603905758
+exp_ld,20,2008-2026,BSS,amc_seqcal,0.06635028088
+exp_ld,20,2008-2026,MCB,amc_seqcal,0.004474303233
+exp_ld,20,2008-2026,DSC,amc_seqcal,0.006604229386
+exp_ld,20,2008-2026,BSS,pc2_logistic,0.1366923604
+exp_ld,20,2008-2026,MCB,pc2_logistic,0.001992879896
+exp_ld,20,2008-2026,DSC,pc2_logistic,0.01008859441
+exp_ld,20,2008-2026,BSS,pc2_gbt,0.1675031327
+exp_ld,20,2008-2026,MCB,pc2_gbt,0.001879503572
+exp_ld,20,2008-2026,DSC,pc2_gbt,0.01258831324
+exp_ld,20,2008-2026,BSS,raw_logistic,0.04319242906
+exp_ld,20,2008-2026,MCB,raw_logistic,0.006696693106
+exp_ld,20,2008-2026,DSC,raw_logistic,0.006862576629
+exp_ld,20,2008-2026,BSS,raw_gbt,0.1137847805
+exp_ld,20,2008-2026,MCB,raw_gbt,0.004782539634
+exp_ld,20,2008-2026,DSC,raw_gbt,0.01093543735
+exp_ld,20,2008-2026,dDSC rawS-m q05,ou_seqcal,0.001568448374
+exp_ld,20,2008-2026,dDSC rawS-m q95,ou_seqcal,0.01220589841
+exp_ld,20,2008-2026,dDSC rawS-m q05,pc2_logistic,0.000862812947
+exp_ld,20,2008-2026,dDSC rawS-m q95,pc2_logistic,0.007532383658
+exp_ld,20,2008-2026,dBSS vs seq-cal,msm_seqcal,-0.0161776
+exp_ld,20,2008-2026,dBSS vs seq-cal,amc_seqcal,-0.02033269961
+exp_ld,20,2008-2026,dBSS vs seq-cal,pc2_logistic,0.05000937989
+exp_ld,20,2008-2026,dBSS vs seq-cal,pc2_gbt,0.08082015223
+exp_ld,20,2008-2026,dBSS vs seq-cal,raw_logistic,-0.04349055143
+exp_ld,20,2008-2026,dBSS vs seq-cal,raw_gbt,0.02710180002
+exp_ld,20,2008-2026,p EWC Holm,msm_seqcal,0.514321786
+exp_ld,20,2008-2026,p EWC Holm,amc_seqcal,0.1233720273
+exp_ld,20,2008-2026,p EWC Holm,pc2_logistic,0.565209299
+exp_ld,20,2008-2026,p EWC Holm,pc2_gbt,0.3103005694
+exp_ld,20,2008-2026,p EWC Holm,raw_logistic,1
+exp_ld,20,2008-2026,p EWC Holm,raw_gbt,1
+exp_ld,20,2009-2026,BSS,ou_raw,-0.1881270397
+exp_ld,20,2009-2026,MCB,ou_raw,0.02737708738
+exp_ld,20,2009-2026,DSC,ou_raw,0.01076233334
+exp_ld,20,2009-2026,BSS,ou_seqcal,0.1052707653
+exp_ld,20,2009-2026,MCB,ou_seqcal,0.003092519042
+exp_ld,20,2009-2026,DSC,ou_seqcal,0.007859979433
+exp_ld,20,2009-2026,BSS,msm_seqcal,0.08562413662
+exp_ld,20,2009-2026,MCB,msm_seqcal,0.004357154519
+exp_ld,20,2009-2026,DSC,msm_seqcal,0.007692809964
+exp_ld,20,2009-2026,BSS,amc_seqcal,0.08057804207
+exp_ld,20,2009-2026,MCB,amc_seqcal,0.004741165399
+exp_ld,20,2009-2026,DSC,amc_seqcal,0.007709072096
+exp_ld,20,2009-2026,BSS,pc2_logistic,0.1180347164
+exp_ld,20,2009-2026,MCB,pc2_logistic,0.001642817387
+exp_ld,20,2009-2026,DSC,pc2_logistic,0.007340487661
+exp_ld,20,2009-2026,BSS,pc2_gbt,0.160970426
+exp_ld,20,2009-2026,MCB,pc2_gbt,0.001734694554
+exp_ld,20,2009-2026,DSC,pc2_gbt,0.01056142897
+exp_ld,20,2009-2026,BSS,raw_logistic,-0.03159203224
+exp_ld,20,2009-2026,MCB,raw_logistic,0.009060803695
+exp_ld,20,2009-2026,DSC,raw_logistic,0.003853991491
+exp_ld,20,2009-2026,BSS,raw_gbt,0.08837149583
+exp_ld,20,2009-2026,MCB,raw_gbt,0.005288466411
+exp_ld,20,2009-2026,DSC,raw_gbt,0.008824343613
+exp_ld,20,2009-2026,dDSC rawS-m q05,ou_seqcal,0.0005074505946
+exp_ld,20,2009-2026,dDSC rawS-m q95,ou_seqcal,0.006246386576
+exp_ld,20,2009-2026,dDSC rawS-m q05,pc2_logistic,0.0006769136859
+exp_ld,20,2009-2026,dDSC rawS-m q95,pc2_logistic,0.007067839896
+exp_ld,20,2009-2026,dBSS vs seq-cal,msm_seqcal,-0.01964662872
+exp_ld,20,2009-2026,dBSS vs seq-cal,amc_seqcal,-0.02469272327
+exp_ld,20,2009-2026,dBSS vs seq-cal,pc2_logistic,0.01276395103
+exp_ld,20,2009-2026,dBSS vs seq-cal,pc2_gbt,0.05569966066
+exp_ld,20,2009-2026,dBSS vs seq-cal,raw_logistic,-0.1368627976
+exp_ld,20,2009-2026,dBSS vs seq-cal,raw_gbt,-0.01689926951
+exp_ld,20,2009-2026,p EWC Holm,msm_seqcal,0.4959600147
+exp_ld,20,2009-2026,p EWC Holm,amc_seqcal,0.1391923338
+exp_ld,20,2009-2026,p EWC Holm,pc2_logistic,1
+exp_ld,20,2009-2026,p EWC Holm,pc2_gbt,0.4959600147
+exp_ld,20,2009-2026,p EWC Holm,raw_logistic,0.1782785933
+exp_ld,20,2009-2026,p EWC Holm,raw_gbt,1

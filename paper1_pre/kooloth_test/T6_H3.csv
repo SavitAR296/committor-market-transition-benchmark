@@ -1,0 +1,11 @@
+metric,value,unit,note
+MPshareMin,100.9006520678597,%,mean-path share of signed signal at 4 reporting times
+MPshareMax,103.01647322127016,%,
+FLshareMin,-3.0164732212701715,%,"fluctuation share, opposite sign"
+FLshareMax,-0.900652067859708,%,
+DetDiffMax,2.3226154114746973,%,max |noise-free - ensemble|/|ensemble|
+EpsRatioMin,1.633706291818306,x,"doubled ramp, matched forcing"
+EpsRatioMax,1.9205663451566581,x,
+OriginMin,-82.9344789054585,%,T origin shifted by 1 unit
+OriginMax,-77.49174820324126,%,
+LinApproxDevMax,3.211452762529364,%,|meanpath - noise-free|/|meanpath|

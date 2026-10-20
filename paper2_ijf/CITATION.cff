@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the manuscript (or the public archive after acceptance)."
+title: "What does a committor score forecast? Hitting-probability warnings of market stress, their target and their evaluation — reproducibility package"
+type: software
+authors:
+  - family-names: Xing
+    given-names: Boyan
+    affiliation: "Department of Mathematical Sciences, Faculty of Science and Technology, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China"
+    email: t330025089@mail.bnbu.edu.cn
+  - family-names: Pan
+    given-names: Jiayi
+    affiliation: "Department of Accounting, Faculty of Business and Management, Beijing Normal-Hong Kong Baptist University, Zhuhai, Guangdong, China"
+version: 1.0.0
+date-released: 2026-10-20
+license: MIT
+# This is a private working copy.  The public archive is deposited after acceptance; the
+# CITATION.cff of that archive will carry the version DOI and the journal DOI.
+keywords:
+  - committor
+  - hitting probability
+  - early warning
+  - forecast evaluation
+  - model confidence set
+  - reproducibility
