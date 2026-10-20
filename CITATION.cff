@@ -13,9 +13,8 @@ authors:
 version: 2.0.0
 date-released: 2026-10-20
 license: MIT
-# concept DOI (always resolves to the latest version); replace with the v2.0.0 version DOI after
-# the Zenodo deposit described in ZENODO_DEPOSIT.md
-doi: 10.5281/zenodo.22774225
+# version DOI of v2.0.0 (2026-10-20); concept DOI 10.5281/zenodo.22774225 always resolves to the latest version
+doi: 10.5281/zenodo.23491759
 repository-code: "https://github.com/SavitAR296/committor-market-transition-benchmark"
 keywords:
   - early warning signals

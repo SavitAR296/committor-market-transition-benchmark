@@ -1,5 +1,9 @@
 # Zenodo: correcting the old record and publishing v2.0.0
 
+> **Completed 2026-10-20.** Correction notice added; new version **v2.0.0** published as
+> `10.5281/zenodo.23491759` (concept DOI unchanged: `10.5281/zenodo.22774225`). The steps below are
+> kept as a record of what was done.
+
 Status of the Zenodo records (verified 2026-10-20 through the public API):
 
 | record | value |

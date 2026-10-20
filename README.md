@@ -19,8 +19,8 @@ information, rolling-window failure, and out-of-sample limits*, was **never subm
 journal**. The v1.0.0 Zenodo record (`10.5281/zenodo.22774226`, concept DOI
 `10.5281/zenodo.22774225`) nevertheless carried the statement "submitted for publication (Chaos,
 Solitons and Fractals)", which is **erroneous**. The Zenodo record has been corrected with a note to
-that effect and superseded by version 2.0.0 (DOI `10.5281/zenodo.22774225`; version DOI filled at
-deposit, see [`ZENODO_DEPOSIT.md`](ZENODO_DEPOSIT.md)).
+that effect and superseded by version 2.0.0 (version DOI `10.5281/zenodo.23491759`, published
+2026-10-20; concept DOI `10.5281/zenodo.22774225`, see [`ZENODO_DEPOSIT.md`](ZENODO_DEPOSIT.md)).
 
 The draft's frozen code, data and results are preserved byte-identical (SHA-256-manifested) at
 `paper1_pre/reproducibility/` (read-only), and its top-level documentation is preserved in
