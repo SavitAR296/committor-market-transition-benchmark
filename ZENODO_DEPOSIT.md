@@ -42,8 +42,11 @@ repository.
 
 ### Route A — GitHub release (automatic if integration is enabled)
 
-1. Push the repository and tag `v2.0.0` (the tag points at the release commit whose SHA is cited in
-   Paper 1; see `README.md`).
+1. Push the repository and tag `v2.0.0`. Paper 1's manuscript cites commit `b9fa527…` (the commit
+   that froze the reproducibility state); the release tag `v2.0.0` sits on the following commit
+   `dc69cca…`, which differs from the cited commit only by the filled commit identifier and the
+   regenerated SHA-256 manifest. Either commit is immutable and resolves; archive the **tagged**
+   tree (`v2.0.0`).
 2. On GitHub, create a release from the tag `v2.0.0` with title `v2.0.0 — two-paper
    reproducibility archive` and paste the description of Step 2B below.
 3. If the Zenodo GitHub app was enabled for this repository (Settings → Integrations → Zenodo), the
